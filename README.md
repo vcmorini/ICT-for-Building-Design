@@ -14,3 +14,9 @@ Design Building Software (Student Edition);
 Python;
 InfluxDB;
 Grafana
+
+# Authors
+* [Anastasya Isgandarova](https://github.com/ianastasiya)
+* [Cansu Ilter](https://github.com/cansuilter)
+* Samane
+* [Victor de Castro Morini](https://github.com/vcmorini)
