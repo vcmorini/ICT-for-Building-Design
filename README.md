@@ -20,3 +20,6 @@ Grafana
 * [Cansu Ilter](https://github.com/cansuilter)
 * Samane
 * [Victor de Castro Morini](https://github.com/vcmorini)
+
+# Graphana Dashboard
+![alt text](https://github.com/vcmorini/building-design/blob/main/graphana_dashboard.JPG?raw=true)
