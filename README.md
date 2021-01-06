@@ -21,5 +21,11 @@ Grafana
 * Samane
 * [Victor de Castro Morini](https://github.com/vcmorini)
 
+# Dummy Building
+## Design Builder
+![alt text](https://github.com/vcmorini/building-design/blob/main/design_builder_dummy.PNG?raw=true)
+## Besos IDF Visualization
+![alt text](https://github.com/vcmorini/building-design/blob/main/design_builder_besos_dummy.PNG?raw=true)
+
 # Graphana Dashboard
 ![alt text](https://github.com/vcmorini/building-design/blob/main/graphana_dashboard.JPG?raw=true)
