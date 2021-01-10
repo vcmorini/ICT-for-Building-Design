@@ -2,7 +2,7 @@
 
 ### In this project, the following tasks were accomplished:
 1) Modeling of a dummy house. Output: IDF file. SW: Design Builder;
-2) IDF file parameters optimization to reduce the building power consumption. Optimized parameters: insulation, glazing, WWR, and orientation. SW: Besos/EnergyPlus (Python);
+2) IDF file parameters optimization to reduce the building power consumption regarding cooling, heating and electricity. Optimized parameters: insulation, glazing, WWR, and orientation. SW: Besos/EnergyPlus (Python);
 3) 3-years simulation of power consumption (for cooling and heating), electricity, inside and ouside temperatures. SW: Besos/EnergyPlus (Python);
 4) Upload of the simulated data into a local database (InfluxDB);
 5) Connection of a local platform (Grafana) with the local database (InfluxDB), and creation of a dashboard in Grafana to visualize the data;
