@@ -18,7 +18,7 @@ Grafana
 # Authors
 * [Anastasya Isgandarova](https://github.com/ianastasiya)
 * [Cansu Ilter](https://github.com/cansuilter)
-* Samane
+* [Samane Ghoreishi](https://github.com/samisgh)
 * [Victor de Castro Morini](https://github.com/vcmorini)
 
 # Dummy Building
