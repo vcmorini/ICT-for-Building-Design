@@ -1,0 +1,16 @@
+ ReadVarsESO
+ processing:/home/ict4bd_v2/Desktop/project/in.rvi
+ input file:/home/ict4bd_v2/Desktop/project/Simulation_Output/output_EPPY_hourly/eplusout.eso
+ output file:/home/ict4bd_v2/Desktop/project/Simulation_Output/output_EPPY_hourly/eplusout.csv
+ getting all vars from:/home/ict4bd_v2/Desktop/project/Simulation_Output/output_EPPY_hourly/eplusout.eso
+  number variables requested for output=         141
+ ReadVars Run Time=00hr 00min  1.40sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:/home/ict4bd_v2/Desktop/project/in.mvi
+ input file:/home/ict4bd_v2/Desktop/project/Simulation_Output/output_EPPY_hourly/eplusout.mtr
+ output file:/home/ict4bd_v2/Desktop/project/Simulation_Output/output_EPPY_hourly/eplusmtr.csv
+ getting all vars from:/home/ict4bd_v2/Desktop/project/Simulation_Output/output_EPPY_hourly/eplusout.mtr
+  number variables requested for output=          10
+ ReadVars Run Time=00hr 00min  0.12sec
+ ReadVarsESO program completed successfully.

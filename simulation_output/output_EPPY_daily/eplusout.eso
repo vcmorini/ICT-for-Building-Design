@@ -1,0 +1,1813 @@
+Program Version,EnergyPlus, Version 9.0.1-bb7ca4f0da, YMD=2021.01.02 20:24
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,8,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,5,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Report Variables Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Report Variables Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Report Variables Requested
+6,1,Calendar Year of Simulation[] ! When Annual Report Variables Requested
+7,9,Environment,Site Outdoor Air Drybulb Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+8,9,Environment,Site Outdoor Air Dewpoint Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+9,9,Environment,Site Outdoor Air Barometric Pressure [Pa] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+10,9,Environment,Site Wind Speed [m/s] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+11,9,Environment,Site Wind Direction [deg] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+12,9,Environment,Site Diffuse Solar Radiation Rate per Area [W/m2] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+13,9,Environment,Site Direct Solar Radiation Rate per Area [W/m2] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+14,9,Environment,Site Solar Azimuth Angle [deg] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+15,9,Environment,Site Solar Altitude Angle [deg] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+16,9,BLOCK1:ZONE3,Zone Total Internal Latent Gain Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+17,9,BLOCK1:ZONE1,Zone Total Internal Latent Gain Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+18,9,BLOCK1:ZONE4,Zone Total Internal Latent Gain Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+19,9,BLOCK1:ZONE2,Zone Total Internal Latent Gain Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+20,9,BLOCK1:ZONE3,Zone People Sensible Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+21,9,BLOCK1:ZONE1,Zone People Sensible Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+22,9,BLOCK1:ZONE4,Zone People Sensible Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+23,9,BLOCK1:ZONE2,Zone People Sensible Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+24,9,BLOCK1:ZONE3,Lights Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+98,9,BLOCK1:ZONE3,Zone Lights Electric Power [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+99,9,BLOCK1:ZONE1,Lights Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+125,9,BLOCK1:ZONE1,Zone Lights Electric Power [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+126,9,BLOCK1:ZONE4,Lights Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+152,9,BLOCK1:ZONE4,Zone Lights Electric Power [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+153,9,BLOCK1:ZONE2,Lights Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+179,9,BLOCK1:ZONE2,Zone Lights Electric Power [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+217,9,BLOCK1:ZONE3 EQUIPMENT GAIN 1,Other Equipment Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+218,9,BLOCK1:ZONE3,Zone Other Equipment Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+244,9,BLOCK1:ZONE1 EQUIPMENT GAIN 1,Other Equipment Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+245,9,BLOCK1:ZONE1,Zone Other Equipment Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+271,9,BLOCK1:ZONE4 EQUIPMENT GAIN 1,Other Equipment Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+272,9,BLOCK1:ZONE4,Zone Other Equipment Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+298,9,BLOCK1:ZONE2 EQUIPMENT GAIN 1,Other Equipment Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+299,9,BLOCK1:ZONE2,Zone Other Equipment Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+300,9,BLOCK1:ZONE3,Zone Windows Total Transmitted Solar Radiation Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+301,9,BLOCK1:ZONE3,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+302,9,BLOCK1:ZONE3,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+303,9,BLOCK1:ZONE1,Zone Windows Total Transmitted Solar Radiation Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+304,9,BLOCK1:ZONE1,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+305,9,BLOCK1:ZONE1,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+306,9,BLOCK1:ZONE4,Zone Windows Total Transmitted Solar Radiation Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+307,9,BLOCK1:ZONE4,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+308,9,BLOCK1:ZONE4,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+309,9,BLOCK1:ZONE2,Zone Windows Total Transmitted Solar Radiation Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+310,9,BLOCK1:ZONE2,Zone Interior Windows Total Transmitted Beam Solar Radiation Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+311,9,BLOCK1:ZONE2,Zone Interior Windows Total Transmitted Diffuse Solar Radiation Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+312,9,BLOCK1:ZONE3,Zone Mean Radiant Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+313,9,BLOCK1:ZONE1,Zone Mean Radiant Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+314,9,BLOCK1:ZONE4,Zone Mean Radiant Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+315,9,BLOCK1:ZONE2,Zone Mean Radiant Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+316,9,BLOCK1:ZONE3,Zone Mean Air Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+317,9,BLOCK1:ZONE3,Zone Operative Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+318,9,BLOCK1:ZONE1,Zone Mean Air Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+319,9,BLOCK1:ZONE1,Zone Operative Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+320,9,BLOCK1:ZONE4,Zone Mean Air Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+321,9,BLOCK1:ZONE4,Zone Operative Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+322,9,BLOCK1:ZONE2,Zone Mean Air Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+323,9,BLOCK1:ZONE2,Zone Operative Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+324,9,BLOCK1:ZONE3,Zone Infiltration Sensible Heat Loss Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+325,9,BLOCK1:ZONE3,Zone Infiltration Sensible Heat Gain Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+326,9,BLOCK1:ZONE3,Zone Infiltration Air Change Rate [ach] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+327,9,BLOCK1:ZONE1,Zone Infiltration Sensible Heat Loss Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+328,9,BLOCK1:ZONE1,Zone Infiltration Sensible Heat Gain Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+329,9,BLOCK1:ZONE1,Zone Infiltration Air Change Rate [ach] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+330,9,BLOCK1:ZONE4,Zone Infiltration Sensible Heat Loss Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+331,9,BLOCK1:ZONE4,Zone Infiltration Sensible Heat Gain Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+332,9,BLOCK1:ZONE4,Zone Infiltration Air Change Rate [ach] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+333,9,BLOCK1:ZONE2,Zone Infiltration Sensible Heat Loss Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+334,9,BLOCK1:ZONE2,Zone Infiltration Sensible Heat Gain Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+335,9,BLOCK1:ZONE2,Zone Infiltration Air Change Rate [ach] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+336,9,BLOCK1:ZONE3,Zone Ventilation Sensible Heat Loss Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+337,9,BLOCK1:ZONE3,Zone Ventilation Sensible Heat Gain Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+338,9,BLOCK1:ZONE3,Zone Ventilation Air Change Rate [ach] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+339,9,BLOCK1:ZONE3,Zone Ventilation Fan Electric Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+376,9,BLOCK1:ZONE1,Zone Ventilation Sensible Heat Loss Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+377,9,BLOCK1:ZONE1,Zone Ventilation Sensible Heat Gain Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+378,9,BLOCK1:ZONE1,Zone Ventilation Air Change Rate [ach] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+379,9,BLOCK1:ZONE1,Zone Ventilation Fan Electric Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+392,9,BLOCK1:ZONE4,Zone Ventilation Sensible Heat Loss Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+393,9,BLOCK1:ZONE4,Zone Ventilation Sensible Heat Gain Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+394,9,BLOCK1:ZONE4,Zone Ventilation Air Change Rate [ach] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+395,9,BLOCK1:ZONE4,Zone Ventilation Fan Electric Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+408,9,BLOCK1:ZONE2,Zone Ventilation Sensible Heat Loss Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+409,9,BLOCK1:ZONE2,Zone Ventilation Sensible Heat Gain Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+410,9,BLOCK1:ZONE2,Zone Ventilation Air Change Rate [ach] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+411,9,BLOCK1:ZONE2,Zone Ventilation Fan Electric Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+510,9,BLOCK1:ZONE3,Zone Air System Sensible Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+511,9,BLOCK1:ZONE3,Zone Air System Sensible Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+512,9,BLOCK1:ZONE3,Zone Air Relative Humidity [%] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+551,9,BLOCK1:ZONE1,Zone Air System Sensible Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+552,9,BLOCK1:ZONE1,Zone Air System Sensible Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+553,9,BLOCK1:ZONE1,Zone Air Relative Humidity [%] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+592,9,BLOCK1:ZONE4,Zone Air System Sensible Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+593,9,BLOCK1:ZONE4,Zone Air System Sensible Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+594,9,BLOCK1:ZONE4,Zone Air Relative Humidity [%] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+633,9,BLOCK1:ZONE2,Zone Air System Sensible Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+634,9,BLOCK1:ZONE2,Zone Air System Sensible Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+635,9,BLOCK1:ZONE2,Zone Air Relative Humidity [%] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+734,9,DHW BLOCK1:ZONE1,Water Use Equipment Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+895,9,Whole Building,Facility Total Produced Electric Energy [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+958,9,BLOCK1:ZONE3 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+959,9,BLOCK1:ZONE3 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+960,9,BLOCK1:ZONE3 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+961,9,BLOCK1:ZONE3 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+962,9,BLOCK1:ZONE3 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+963,9,BLOCK1:ZONE3 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+964,9,BLOCK1:ZONE3 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+967,9,BLOCK1:ZONE1 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+968,9,BLOCK1:ZONE1 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+969,9,BLOCK1:ZONE1 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+970,9,BLOCK1:ZONE1 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+971,9,BLOCK1:ZONE1 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+972,9,BLOCK1:ZONE1 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+973,9,BLOCK1:ZONE1 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+976,9,BLOCK1:ZONE4 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+977,9,BLOCK1:ZONE4 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+978,9,BLOCK1:ZONE4 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+979,9,BLOCK1:ZONE4 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+980,9,BLOCK1:ZONE4 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+981,9,BLOCK1:ZONE4 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+982,9,BLOCK1:ZONE4 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+985,9,BLOCK1:ZONE2 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+986,9,BLOCK1:ZONE2 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Sensible Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+987,9,BLOCK1:ZONE2 IDEAL LOADS AIR,Zone Ideal Loads Supply Air Total Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+988,9,BLOCK1:ZONE2 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+989,9,BLOCK1:ZONE2 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Heating Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+990,9,BLOCK1:ZONE2 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Sensible Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+991,9,BLOCK1:ZONE2 IDEAL LOADS AIR,Zone Ideal Loads Heat Recovery Total Cooling Rate [W] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+29,9,Electricity:Facility [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+184,9,InteriorEquipment:Electricity [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+65,9,InteriorLights:Electricity [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+925,9,DistrictCooling:Facility [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+739,9,DistrictHeating:Facility [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+996,9,Carbon Equivalent:Facility [kg] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+31,11,Electricity:Facility [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+927,11,DistrictCooling:Facility [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+741,11,DistrictHeating:Facility [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+998,11,Carbon Equivalent:Facility [kg] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+1019,9,BLOCK1:ZONE3,Zone Mechanical Ventilation Air Changes per Hour [ach] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+1020,9,BLOCK1:ZONE1,Zone Mechanical Ventilation Air Changes per Hour [ach] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+1021,9,BLOCK1:ZONE4,Zone Mechanical Ventilation Air Changes per Hour [ach] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+1022,9,BLOCK1:ZONE2,Zone Mechanical Ventilation Air Changes per Hour [ach] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+End of Data Dictionary
+1,LAB_PART1 (O1-O1:31-12),  45.22,   7.65,   1.00, 287.00
+4,31, 1
+7,1.7827620967741953,-5.8,28, 7,60,12.4,20,16,60
+8,-3.0380040359179025,-17.6,25,17,60,3.1,20,16,60
+9,97973.4879032258,96100.0,31,19,60,99600.0,10,22,60
+10,1.000403225806453,0.0, 1, 1,30,12.9,15, 4,60
+11,49.18010752688172,0.0, 1, 1,30,355.0,29,13,30
+12,33.50470430107527,0.0, 1, 1,30,219.0,24,13,30
+13,62.81182795698925,0.0, 1, 1,30,703.0,25,13,30
+14,174.31412188193264,1.6808750584602897, 1, 1,30,340.5020813076715, 1,24,60
+15,-17.222660801153745,-67.86463455331843, 1, 1,30,27.128783803429568,31,13,30
+16,157279032.73870785,0.0, 1, 1,30,313433.8832947482, 8,21,30
+17,118304742.15776035,0.0, 1, 1,30,661848.6662965164,15,10,60
+18,378598516.8121287,0.0, 1, 1,30,754358.5348197899, 1,20,30
+19,222194904.83783139,0.0, 1, 1,30,442715.7972237821,18,21,30
+20,111.43258657014266,0.0, 1, 1,30,335.6030758522523, 7,10,30
+21,100.2269906571716,0.0, 1, 1,30,650.6450143503025,28, 8,30
+22,268.1661202986688,0.0, 1, 1,30,804.1027423863542, 7,10,30
+23,157.37904831282163,0.0, 1, 1,30,471.6802839615501, 7,10,30
+24,349.3191182795708,0.0, 1, 1,30,792.358, 1,10,30
+98,349.3191182795708,0.0, 1, 1,30,792.358, 1,10,30
+99,1168.9203749999966,0.0, 1, 1,30,4007.7270000000005, 1, 8,30
+125,1168.9203749999966,0.0, 1, 1,30,4007.7270000000005, 1, 8,30
+126,840.7255000000049,0.0, 1, 1,30,1907.0115, 1,10,30
+152,840.7255000000049,0.0, 1, 1,30,1907.0115, 1,10,30
+153,493.4025967741957,0.0, 1, 1,30,1119.1815, 1,10,30
+179,493.4025967741957,0.0, 1, 1,30,1119.1815, 1,10,30
+217,237.56254111044019,15.8484277728, 1, 1,30,342.298656, 1, 8,30
+218,237.56254111044019,15.848427772800001, 1, 1,30,342.29865600000007, 1, 8,30
+244,1730.7132905319209,534.3619969092, 1, 1,30,8090.264904000001, 1, 8,30
+245,1730.7132905319209,534.3619969092001, 1, 1,30,8090.264904000001, 1, 8,30
+271,571.7548101575733,38.143281218400009, 1, 1,30,823.8289680000002, 1, 8,30
+272,571.7548101575733,38.143281218400009, 1, 1,30,823.8289680000003, 1, 8,30
+298,335.5498412381697,22.385420690400005, 1, 1,30,483.48640800000006, 1, 8,30
+299,335.5498412381697,22.385420690400009, 1, 1,30,483.48640800000006, 1, 8,30
+300,55.21147106991728,0.0, 1, 1,30,396.4165609648321,27,15,60
+301,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+302,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+303,27.580170658719454,0.0, 1, 1,30,278.91331029141448,27,11,30
+304,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+305,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+306,238.15476891841153,0.0, 1, 1,30,1965.6624038196454,27,13,30
+307,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+308,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+309,155.27141109044858,0.0, 1, 1,30,1233.6289656142554,27,12,30
+310,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+311,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+312,15.264027728649819,12.62464889006567, 7, 8,30,17.168266391176628,15,16,30
+313,15.231541390779979,12.668323488433148, 7, 6,30,18.222382233286415,15,11,30
+314,15.469910109557527,12.637954374044222, 7, 8,30,17.70650046244626,15,15,60
+315,15.458093717817164,12.65595950970124, 7, 8,30,17.610022319528026,15,15,60
+316,15.968026459212926,11.99999999999997,30, 5,60,18.000000000160818,16,16,60
+317,15.616027093931379,12.342997157409185, 7, 7,60,17.584133195588309,15,16,30
+318,15.571001443468699,12.000000000000004, 7, 5,60,21.615908887261129,15,10,60
+319,15.401271417124344,12.388408248352932, 7, 5,60,19.91771066249397,15,10,60
+320,15.977721320700843,11.99999999999999, 8, 4,60,18.000000000023225,16,16,60
+321,15.723815715129179,12.351328446417359, 7, 7,60,17.85325023122313,15,15,60
+322,16.007052494448389,11.999999999999983, 9, 5,60,18.00000000000079,20,16,60
+323,15.732573106132766,12.356161759490539, 7, 7,60,17.80501115976401,15,15,60
+324,5135235519.553475,68222.87650865942,15, 6,30,5810349.737184316,10,22,60
+325,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+326,0.7358132954526597,0.704488397183374,15, 6, 3,0.7609221826284426,10,22,60
+327,8418749655.218634,154623.11951882844,20,16, 3,9796173.477630122,10,22,60
+328,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+329,0.7347309624043578,0.7037833920674356,20,16, 3,0.7610658884899292, 5, 7,60
+330,12367307416.87371,173970.67825186367,15, 6,30,13984027.942143497,10,22,60
+331,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+332,0.7358353501052106,0.7049108438066858,15, 6, 3,0.7609043578064741,10,22,60
+333,7273049601.922264,103668.41345607597,15, 6,30,8206918.9933563959,10,22,60
+334,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+335,0.7359106797670116,0.7050335603851111,15, 6, 3,0.760910021237456,10,22,60
+336,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+337,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+338,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+339,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+376,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+377,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+378,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+379,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+392,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+393,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+394,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+395,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+408,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+409,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+410,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+411,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+510,2186.834960837849,0.0, 1, 1,10,6502.135355887922, 2, 6,60
+511,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+512,28.76386573303498,7.838729066367642,25,18,29,47.39977116907241, 2, 5,60
+551,1998.428488208614,0.0, 1, 1,10,11072.937195606057,13, 6,60
+552,115.78920119607175,0.0, 1, 1,10,1708.378928495209,18,10,60
+553,28.909633695550438,7.543248003256228,25,18,60,46.51937910403088,31, 5,60
+592,4623.041734696431,0.0, 1, 1,10,14578.43349983031, 1, 8,60
+593,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+594,28.770885800540954,7.823463577640346,25,18,29,47.394791083399109, 2, 5,60
+633,2818.8450861075559,0.0, 1, 1,10,8844.423256726748, 1, 8,60
+634,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+635,28.705331083977656,7.8264382621536099,25,18,29,47.39818318094057, 2, 5,60
+734,746.4857393155605,0.0, 1, 1,10,4714.646774624572, 1, 8, 2
+895,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+958,2412.499461647076,0.0, 1, 1,10,6534.8685025998379,22, 8,16
+959,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+960,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+961,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+962,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+963,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+964,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+967,2188.9154095617579,0.0, 1, 1,10,11129.544445199457,10,18,13
+968,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+969,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+970,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+971,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+972,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+973,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+976,5164.521511147088,0.0, 1, 1,10,14676.036228618961, 2, 6,37
+977,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+978,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+979,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+980,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+981,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+982,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+985,3136.1692447164175,0.0, 1, 1,10,8896.845735644507,23, 6,16
+986,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+987,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+988,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+989,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+990,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+991,0.0,0.0, 1, 1,10,0.0, 1, 1,10
+1019,0.06802249109992165,0.0, 1, 1,10,0.2058708460839594,31,21,30
+1020,0.04623356334008221,0.0, 1, 1,10,0.29987471609919216,24,10,60
+1021,0.06802305699950057,0.0, 1, 1,10,0.205873120340642,31,21,30
+1022,0.06802300044637517,0.0, 1, 1,10,0.20587207603278444,31,21,30
+29,15341736118.969517,1099330.4278634403, 1, 1,30,31619082.4848, 1,10,30
+65,7639781353.199998,0.0, 1, 1,30,14087300.399999999, 1,10,30
+184,7701954765.769073,1099330.4278634403, 1, 1,30,17531782.0848, 1, 8,30
+739,36556387115.73327,0.0, 1, 1,30,74227130.84170896,27, 6,30
+925,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+996,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+4,59, 2
+7,3.853980654761904,-5.6,21, 7,60,15.4,24,16,60
+8,-1.037127991181103,-16.6,17,21,60,6.6,27,17,60
+9,99064.17410714286,97600.0, 4,18,60,100000.0,27, 9,60
+10,0.40059523809523819,0.0, 1, 1,30,15.4,16,19,60
+11,27.8125,0.0, 1, 1,30,355.0,17, 7,30
+12,54.64136904761905,0.0, 1, 1,30,273.0,20,13,30
+13,81.82886904761905,0.0, 1, 1,30,655.0,21,13,30
+14,173.18682631950748,4.999299580835944,28, 1,30,342.93251137827778,28,24,60
+15,-10.800425295488925,-61.95417122411706, 1, 1,30,36.48412919260253,28,13,30
+16,141643039.22645674,0.0, 1, 1,30,313433.8832947451,20,22,60
+17,108757523.28459899,0.0, 1, 1,30,627388.7151800694,27,10,60
+18,340926137.38042536,0.0, 1, 1,30,760744.3172839396, 5,17,30
+19,200078019.45859484,0.0, 1, 1,30,443070.71584835977, 5,17,30
+20,111.07167488051694,0.0, 1, 1,30,330.86469628276486,19,10,30
+21,99.44093446417152,0.0, 1, 1,30,650.1009813226895,21, 8,30
+22,267.3115263655237,0.0, 1, 1,30,795.7188904148934,19,10,30
+23,156.8805784261803,0.0, 1, 1,30,466.81854989336235,19,10,30
+24,349.0148333333339,0.0, 1, 1,30,792.358, 1, 8,30
+98,349.0148333333339,0.0, 1, 1,30,792.358, 1, 8,30
+99,1168.9203749999975,0.0, 1, 1,30,4007.7270000000005, 1, 8,30
+125,1168.9203749999975,0.0, 1, 1,30,4007.7270000000005, 1, 8,30
+126,839.9931607142901,0.0, 1, 1,30,1907.0115, 1, 8,30
+152,839.9931607142901,0.0, 1, 1,30,1907.0115, 1, 8,30
+153,492.97280357143065,0.0, 1, 1,30,1119.1815, 1, 8,30
+179,492.97280357143065,0.0, 1, 1,30,1119.1815, 1, 8,30
+217,237.56254111043985,15.8484277728, 1, 1,30,342.298656, 1, 8,30
+218,237.56254111043985,15.848427772800001, 1, 1,30,342.29865600000007, 1, 8,30
+244,1730.7132905319236,534.3619969092, 1, 1,30,8090.264904000001, 1, 8,30
+245,1730.7132905319236,534.3619969092001, 1, 1,30,8090.264904000001, 1, 8,30
+271,571.7548101575719,38.143281218400009, 1, 1,30,823.8289680000002, 1, 8,30
+272,571.7548101575719,38.143281218400009, 1, 1,30,823.8289680000003, 1, 8,30
+298,335.5498412381697,22.385420690400005, 1, 1,30,483.48640800000006, 1, 8,30
+299,335.5498412381697,22.385420690400009, 1, 1,30,483.48640800000006, 1, 8,30
+300,91.54917729713124,0.0, 1, 1,30,487.7418965882759,24,15,60
+301,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+302,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+303,42.1358269060574,0.0, 1, 1,30,334.2677136780205,24,10,60
+304,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+305,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+306,326.8935605402442,0.0, 1, 1,30,1929.5644732771662,22,14,30
+307,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+308,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+309,212.30202631673945,0.0, 1, 1,30,1242.4744455710923,24,12,30
+310,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+311,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+312,15.798443092529789,12.96366801857527,19, 8,30,17.70641798510238,26,16,60
+313,15.93834879973048,12.926307255124124,21, 6,30,18.221363073243194,27,10,60
+314,16.038680034826233,13.098055703546374,19, 8,30,18.097313400096718,26,16,60
+315,16.033709599805275,13.141610953469265,19, 8,30,18.0097078883969,26,16,60
+316,16.237282221377,11.999999999999999, 4, 7,60,18.127245487932748,24,16,30
+317,16.017862656953406,12.506553698108587,19, 7,60,17.85320899255119,26,16,60
+318,16.132212194971339,12.000000000000036,21, 5,60,20.913030372001484,27,10,60
+319,16.035280497350933,12.523180192618776,21, 5,60,19.567196722622339,27,10,60
+320,16.255014384612275,12.000000000000002,12, 7,60,18.175187675347567,24,16,60
+321,16.146847209719259,12.576561713125784,19, 7,60,18.09911772222556,24,16,60
+322,16.291343645810757,11.999999999999979,18, 7,60,18.136584173527138,24,16,60
+323,16.162526622808,12.595094262369978,19, 7,60,18.036065653454338,24,16,60
+324,4069370532.8686277,113668.33987759098, 1,16, 3,5466663.150550718, 8, 8,60
+325,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+326,0.7309660302785448,0.7028146818754503,24,13,45,0.7599200718274833,21, 7,60
+327,6805702342.919576,153082.14120515335, 1,16, 3,9217139.68499439, 8, 8,60
+328,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+329,0.7306305172912436,0.7013046033358137,24,16, 7,0.7605774147465185,21, 7,60
+330,9807345687.420472,290560.4313923671, 1,16, 3,13156924.557548766, 8, 8,60
+331,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+332,0.7310072029824539,0.7033073879313599,24,16, 7,0.7600787782594021,21, 7,60
+333,5772572264.354995,170648.989882773, 1,16, 3,7721517.896990189, 8, 8,60
+334,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+335,0.731100215264797,0.7033046109276469,24,16, 7,0.7600979406358644,21, 7,60
+336,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+337,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+338,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+339,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+376,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+377,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+378,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+379,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+392,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+393,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+394,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+395,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+408,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+409,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+410,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+411,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+510,1670.4632910421565,0.0, 1, 1, 3,6499.506544595728, 4, 8,60
+511,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+512,33.17326494164771,9.372337104516227,17,18,59,56.50864983097461,27, 5,60
+551,1419.9986361153995,0.0, 1, 1, 3,11066.091081059685, 3, 6,60
+552,147.1480055776992,0.0, 1, 1, 3,1865.6204386048476, 7,10,60
+553,32.72908965711208,8.21294996141223,17,22,30,54.31555936778364,27, 5,60
+592,3467.3135087181465,0.0, 1, 1, 3,14561.302539157838, 7, 6,60
+593,1.149479380296021,0.0, 1, 1, 3,301.2370430890762, 5,17,30
+594,33.15578528946169,9.371431713098758,17,18,59,56.79223330269145,27, 5,60
+633,2109.556547777246,0.0, 1, 1, 3,8838.82697125641, 7, 6,60
+634,0.308969749529563,0.0, 1, 1, 3,161.2528640366994, 5,16,60
+635,33.06419344997613,9.371414805317619,17,18,59,56.224370677437288,27, 5,60
+734,746.4857393155601,0.0, 1, 1, 3,4714.646774624572, 1, 8,30
+895,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+958,1858.8348030549296,0.0, 1, 1, 3,6534.868502599834, 1, 6, 2
+959,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+960,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+961,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+962,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+963,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+964,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+967,1546.1510685641527,0.0, 1, 1, 3,11129.54444519936,20, 6,12
+968,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+969,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+970,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+971,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+972,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+973,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+976,3918.3012569970107,0.0, 1, 1, 3,14676.036228619028, 3, 6, 5
+977,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+978,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+979,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+980,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+981,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+982,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+985,2373.832274957266,0.0, 1, 1, 3,8896.845735644556, 1, 6, 5
+986,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+987,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+988,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+989,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+990,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+991,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+1019,0.06714885587362926,0.0, 1, 1, 3,0.20278899013418387, 4,19,60
+1020,0.04576382703664551,0.0, 1, 1, 3,0.2936679147509808, 5,10,60
+1021,0.06714923487168856,0.0, 1, 1, 3,0.20278928395285665, 4,19,60
+1022,0.06714911541503976,0.0, 1, 1, 3,0.20278927162758585, 4,19,60
+29,13853504421.365965,1099330.4278634403, 1, 1,30,31619082.4848, 1, 8,30
+65,6896900116.80001,0.0, 1, 1,30,14087300.399999999, 1, 8,30
+184,6956604304.565627,1099330.4278634403, 1, 1,30,17531782.0848, 1, 8,30
+739,25265169561.676866,0.0, 1, 1,30,74227130.84170917,21, 6,30
+925,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+996,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+4,90, 3
+7,8.136491935483882,-1.2, 1, 6,60,20.2,19,16,60
+8,3.9560819516595808,-8.4,26,21,60,11.6,21,13,60
+9,98297.78225806452,96000.0,26,10,60,99800.0, 3,24,60
+10,0.5307795698924732,0.0, 1, 1,30,16.4,26,16,60
+11,41.5994623655914,0.0, 1, 1,30,355.0, 6, 1,30
+12,69.47983870967743,0.0, 1, 1,30,419.0,27,14,30
+13,102.36827956989248,0.0, 1, 1,30,784.0,26,14,30
+14,174.32514185964073,1.2815398708071464,31, 1,30,348.8853246088234,31,24,60
+15,-1.675630505677223,-52.53782388334054, 1, 1,30,48.64875962253128,31,13,30
+16,158366561.25967933,0.0, 1, 1,30,397019.6287959928,19,17,60
+17,139171811.72385196,0.0, 1, 1,30,807196.6535163013,21,10,60
+18,385485469.5684977,0.0, 1, 1,30,1005237.2806300941,19,17,60
+19,226077360.90832065,0.0, 1, 1,30,584220.9017727049,19,17,60
+20,107.29807911295112,0.0, 1, 1,30,330.24062539499439, 5,10,30
+21,92.43611940340381,0.0, 1, 1,30,636.9652323630276, 3, 8,30
+22,256.6213112795793,0.0, 1, 1,30,794.7979441714672, 5,10,30
+23,150.6631539946244,0.0, 1, 1,30,466.4461987638936, 5,10,30
+24,347.18912365591486,0.0, 1, 1,30,792.358, 1, 8,30
+98,347.18912365591486,0.0, 1, 1,30,792.358, 1, 8,30
+99,1168.9203749999966,0.0, 1, 1,30,4007.7270000000005, 1, 8,30
+125,1168.9203749999966,0.0, 1, 1,30,4007.7270000000005, 1, 8,30
+126,835.5991250000047,0.0, 1, 1,30,1907.0115, 1, 8,30
+152,835.5991250000047,0.0, 1, 1,30,1907.0115, 1, 8,30
+153,490.3940443548408,0.0, 1, 1,30,1119.1815, 1, 8,30
+179,490.3940443548408,0.0, 1, 1,30,1119.1815, 1, 8,30
+217,237.56254111044019,15.8484277728, 1, 1,30,342.298656, 1, 8,30
+218,237.56254111044019,15.848427772800001, 1, 1,30,342.29865600000007, 1, 8,30
+244,1730.7132905319209,534.3619969092, 1, 1,30,8090.264904000001, 1, 8,30
+245,1730.7132905319209,534.3619969092001, 1, 1,30,8090.264904000001, 1, 8,30
+271,571.7548101575733,38.143281218400009, 1, 1,30,823.8289680000002, 1, 8,30
+272,571.7548101575733,38.143281218400009, 1, 1,30,823.8289680000003, 1, 8,30
+298,335.5498412381697,22.385420690400005, 1, 1,30,483.48640800000006, 1, 8,30
+299,335.5498412381697,22.385420690400009, 1, 1,30,483.48640800000006, 1, 8,30
+300,122.00608492717608,0.0, 1, 1,30,666.6054978225512,26,16,30
+301,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+302,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+303,58.23361604322658,0.0, 1, 1,30,463.44218887692497,27,10,30
+304,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+305,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+306,357.1592955540704,0.0, 1, 1,30,2011.899566878114,20,14,30
+307,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+308,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+309,239.2549832117162,0.0, 1, 1,30,1353.5080726583443,20,11,60
+310,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+311,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+312,17.219129116426868,13.687035057932679, 5, 8,30,20.45513300233672,22,18,30
+313,18.026880053471428,14.14023181945448, 3, 6,30,21.821111357215004,22,23,60
+314,17.50228271683816,13.803552058217454, 5, 8,30,21.052480583554745,22,18,30
+315,17.549957112955047,13.92450177568393, 5, 8,30,21.029834309557768,22,18,30
+316,17.169110804010804,12.000165867665457, 5, 7,60,21.088823077081956,19,17,30
+317,17.194119960218804,12.886556157690676, 5, 7,60,20.634373499485109,19,17,60
+318,18.030814597734666,12.62157496551145, 3, 5,60,23.960543501609125,22,10,60
+319,18.028847325603079,13.461455059153062, 3, 5,60,22.56558414659604,22,10,60
+320,17.267882006742715,12.0000008390326, 5, 7,60,21.803890664482279,19,17,30
+321,17.385082361790415,12.946212048308463, 5, 7,60,21.336786932943818,19,17,30
+322,17.321169376531566,12.00033864745714, 5, 7,60,21.66477128310805,19,17,30
+323,17.43556324474332,13.01556596173573, 5, 7,60,21.209007654352328,19,17,30
+324,3219389841.2178637,0.0, 7,16,45,4675943.0711493319, 3, 7,60
+325,90753.3042995655,0.0, 1, 1, 4,56673.31968751981, 7,16,45
+326,0.7218928670642907,0.6958174732935685, 7,16,45,0.7497236438740208, 1, 6,60
+327,5940342651.746682,0.0, 7,16,45,8144248.472626703, 1,10,60
+328,3133.6561859685218,0.0, 1, 1, 4,3133.6561859685218, 7,16,45
+329,0.7239534965429897,0.6969656369235476, 7,16,45,0.7510111390661123, 1,10,60
+330,7830011945.867765,47552.01963250783, 7,16,45,11253037.846727184, 3, 7,60
+331,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+332,0.7221309664438015,0.6974011478273484, 7,16,45,0.7497205665748917, 1, 6,60
+333,4622078811.37734,21583.713042485353, 7,16,45,6604647.197799596, 3, 7,60
+334,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+335,0.7222655506305321,0.6973096273452302, 7,16,45,0.7497211208181881, 1, 6,60
+336,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+337,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+338,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+339,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+376,11628148.605281335,0.0, 1, 1, 4,11628148.605281335,21,10,60
+377,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+378,0.0017289602115946727,0.0, 1, 1, 4,5.145385589705746,21,10,60
+379,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+392,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+393,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+394,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+395,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+408,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+409,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+410,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+411,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+510,807.9677456463055,0.0, 1, 1, 4,6429.627194514227, 3, 7,15
+511,16.195241518136365,0.0, 1, 1, 4,303.3911049410306,23,22,60
+512,43.4404802653849,16.825805051899395,27, 6,60,60.07185793480379,22, 1,30
+551,594.4213752011241,0.0, 1, 1, 4,10843.860621491236, 3, 6,34
+552,186.30342843759127,0.0, 1, 1, 4,1764.5193116397962, 1,10,60
+553,40.66473272251309,15.753123656313657,26,22,60,57.97047167705831,17, 5,60
+592,1698.3840930458605,0.0, 1, 1, 4,14410.211449153901, 3, 7,15
+593,55.93423562392799,0.0, 1, 1, 4,743.0830737162276,23,22,60
+594,43.174643106927849,16.821733987030809,27, 6,60,59.76723232769052,17, 5,60
+633,1005.8380592961235,0.0, 1, 1, 4,8741.290044010324, 3, 7,15
+634,33.30578175125818,0.0, 1, 1, 4,441.36087663493847,23,22,60
+635,43.016709713322217,16.822217028029784,27, 6,60,59.45397492198358,17, 5,60
+734,746.4857393155605,0.0, 1, 1, 4,4714.646774624572, 1, 8,30
+895,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+958,911.3999229275842,0.0, 1, 1, 4,6534.868502599781,30, 5, 2
+959,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+960,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+961,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+962,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+963,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+964,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+967,618.7335353539475,0.0, 1, 1, 4,11129.544445199315,15, 6, 2
+968,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+969,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+970,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+971,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+972,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+973,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+976,1934.6343173575022,0.0, 1, 1, 4,14676.036228618985,13, 6, 8
+977,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+978,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+979,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+980,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+981,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+982,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+985,1142.8072427375719,0.0, 1, 1, 4,8896.845735644649, 6, 6,13
+986,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+987,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+988,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+989,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+990,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+991,0.0,0.0, 1, 1, 4,0.0, 1, 1, 4
+1019,0.0666036211540138,0.0, 1, 1, 4,0.2069928173748095,25,17,30
+1020,0.04646981411448322,0.0, 1, 1, 4,0.3032984525014483,25,10,60
+1021,0.06663435164932587,0.0, 1, 1, 4,0.2072563261961374,22,21,30
+1022,0.06663272482236117,0.0, 1, 1, 4,0.20725851552956818,22,21,30
+29,15314242551.769518,1099330.4278634403, 1, 1,30,31619082.4848, 1, 8,30
+65,7612287785.999997,0.0, 1, 1,30,14087300.399999999, 1, 8,30
+184,7701954765.769073,1099330.4278634403, 1, 1,30,17531782.0848, 1, 8,30
+739,14340316333.402733,0.0, 1, 1,30,71585072.76141984, 3, 6,30
+925,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+996,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+4,120, 4
+7,11.863958333333335,1.7,18, 7,60,21.8, 5,16,60
+8,5.138333333333335,-5.9,14, 6,60,10.8, 5,10,60
+9,97938.19444444444,96300.0,16,16,60,99400.0, 6, 5,60
+10,1.7776736111111114,0.0, 2, 7,60,8.7,13,13,60
+11,175.06944444444447,0.0, 2, 7,60,355.0, 9, 7,30
+12,96.15590277777778,0.0, 1, 1,30,429.0,23,13,30
+13,117.74444444444444,0.0, 1, 1,30,862.0,19,13,30
+14,176.3197142526612,0.022203250436239123,14, 1,30,352.53878582062438,30,24,60
+15,7.9901188200253669,-40.5091753554345, 1, 1,30,59.30999399800414,30,13,30
+16,173127336.55120219,0.0, 1, 1,30,446502.76934288928,30,19,30
+17,155875691.13169236,0.0, 1, 1,30,829266.8825773355, 5, 9,30
+18,422589079.5550402,0.0, 1, 1,30,1115157.731459626, 4,20,30
+19,249096880.20820944,0.0, 1, 1,30,655819.1465448844, 4,20,30
+20,108.332190801136,0.0, 1, 1,30,330.23048235567867,22, 9,30
+21,84.25969475477155,0.0, 1, 1,30,636.9493032507044,20, 7,30
+22,258.44739004891877,0.0, 1, 1,30,794.7838328569005,22, 9,30
+23,151.2567323721514,0.0, 1, 1,30,466.44048069735399,22, 9,30
+24,352.15911111111196,0.0, 1, 1,30,792.358, 1, 9,30
+98,352.15911111111196,0.0, 1, 1,30,792.358, 1, 9,30
+99,1168.9203749999968,0.0, 1, 1,30,4007.7270000000005, 1, 7,30
+125,1168.9203749999968,0.0, 1, 1,30,4007.7270000000005, 1, 7,30
+126,847.5606666666714,0.0, 1, 1,30,1907.0115, 1, 9,30
+152,847.5606666666714,0.0, 1, 1,30,1907.0115, 1, 9,30
+153,497.41400000000217,0.0, 1, 1,30,1119.1815, 1, 9,30
+179,497.41400000000217,0.0, 1, 1,30,1119.1815, 1, 9,30
+217,237.56254111044007,15.8484277728, 1, 1,30,342.298656, 1, 7,30
+218,237.56254111044007,15.848427772800001, 1, 1,30,342.29865600000007, 1, 7,30
+244,1730.7132905319218,534.3619969092, 1, 1,30,8090.264904000001, 1, 7,30
+245,1730.7132905319218,534.3619969092001, 1, 1,30,8090.264904000001, 1, 7,30
+271,571.7548101575728,38.143281218400009, 1, 1,30,823.8289680000002, 1, 7,30
+272,571.7548101575728,38.143281218400009, 1, 1,30,823.8289680000003, 1, 7,30
+298,335.54984123816976,22.385420690400005, 1, 1,30,483.48640800000006, 1, 7,30
+299,335.54984123816976,22.385420690400009, 1, 1,30,483.48640800000006, 1, 7,30
+300,162.24073414429675,0.0, 1, 1,30,787.1842839236551,19,16,30
+301,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+302,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+303,83.57937994403156,0.0, 1, 1,30,589.815776487574,30, 9,60
+304,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+305,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+306,374.3678104305678,0.0, 1, 1,30,1972.8253612331906,10,14,60
+307,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+308,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+309,268.8415350127192,0.0, 1, 1,30,1411.7228080245607,10,11,30
+310,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+311,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+312,18.808250317234724,15.312545561156349,17, 5,30,22.233280665486779,30,18,30
+313,20.14708903042891,16.108779867460453,18, 5,30,23.327118812510457, 6,22,30
+314,19.00795299507652,15.160169908307964,17, 5,30,22.85858168124247, 6,18,30
+315,19.16106048367031,15.324659420492582,17, 5,30,22.96687791762225, 6,18,30
+316,18.398859103696446,13.680812987083368,17, 4,60,22.812253723078066, 4,18,30
+317,18.60355471046554,14.560739843097548,17, 4,60,22.503556789729456,30,18,30
+318,20.047726381048059,14.61582509863615,18, 4,60,24.307673292117817, 4,20,60
+319,20.0974077057385,15.438394331110878,18, 4,60,23.76590266834728, 4,20,60
+320,18.49775931327973,13.357482654306722,17, 4,60,23.468511249750998, 4,18,30
+321,18.752856154178145,14.32587374576697,17, 4,60,23.115755064828805, 4,18,30
+322,18.62357758564616,13.594571154301568,17, 4,60,23.468058115569148, 4,18,30
+323,18.89231903465823,14.525525017020158,17, 4,60,23.14004971406448, 4,18,30
+324,2213076115.1340396,22115.327305303115, 5,16,60,3831285.8801639627,18, 6,60
+325,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+326,0.7153233517240614,0.6971771500054245, 3,13,45,0.7420363687330293,18, 7,60
+327,4669782791.447398,206214.94218640915, 4,19, 6,6459498.069184602,18, 6,60
+328,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+329,0.7192844613511865,0.699893949443259, 4,17,15,0.7455619336141599,18, 7,60
+330,5404851050.0128149,195988.34776605687, 3,13,45,9220926.245858215,18, 6,60
+331,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+332,0.7155595757392018,0.698130710421921, 5,10,37,0.742031641804183,18, 7,60
+333,3231909988.156136,136449.30827592113, 3, 9,32,5411559.39285677,18, 6,60
+334,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+335,0.7158702412328313,0.6988969946998505, 3,13,45,0.7420326799592087,18, 7,60
+336,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+337,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+338,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+339,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+376,242163132.25474523,0.0, 1, 1,15,13368401.001115619,27, 9,60
+377,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+378,0.03603848426517241,0.0, 1, 1,15,5.194263226249777, 7, 9,20
+379,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+392,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+393,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+394,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+395,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+408,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+409,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+410,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+411,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+510,229.79813526532687,0.0, 1, 1,15,6325.887627034755,17, 5,37
+511,45.20121151223272,0.0, 1, 1,15,317.3010903699464, 7,20,60
+512,43.78438534448905,18.5846805156767,14, 6,60,60.94683194751198,27, 3,30
+551,146.45139556453399,0.0, 1, 1,15,10594.172604859586,17, 5,10
+552,172.87239199623444,0.0, 1, 1,15,1580.7621783152513,18, 7,60
+553,39.0508430832629,15.395607650235469,14, 7,29,56.67975834216453,27, 5,22
+592,517.9686864281096,0.0, 1, 1,15,14227.8545306883,17, 5,17
+593,117.15634557189945,0.0, 1, 1,15,769.3826766598876, 7,20,30
+594,43.577286406655129,18.581720199213323,14, 6,60,61.48276439505449,27, 3,30
+633,281.7313237557673,0.0, 1, 1,15,8603.643435027807,17, 5,37
+634,73.21644256364343,0.0, 1, 1,15,465.1450403751435, 7, 8,30
+635,43.22491013328272,18.575967745760577,14, 6,60,60.61023838446541,27, 3,30
+734,746.4857393155604,0.0, 1, 1,15,4714.646774624572, 1, 7, 3
+895,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+958,266.6098859839527,0.0, 1, 1,15,6534.868502599778,20, 5, 3
+959,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+960,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+961,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+962,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+963,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+964,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+967,148.40216727247569,0.0, 1, 1,15,11129.544445199337,18, 5, 2
+968,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+969,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+970,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+971,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+972,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+973,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+976,604.187769360252,0.0, 1, 1,15,14676.0362286187, 1, 7, 3
+977,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+978,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+979,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+980,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+981,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+982,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+985,328.32903011002318,0.0, 1, 1,15,8896.84573564471, 9, 7, 3
+986,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+987,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+988,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+989,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+990,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+991,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+1019,0.07059796278199705,0.0, 1, 1,15,0.20655471982927224,30,18,60
+1020,0.04693343535631762,0.0, 1, 1,15,0.304156175456957,13, 9,60
+1021,0.07064030676765293,0.0, 1, 1,15,0.20685600202168484,30,18,30
+1022,0.07065491322454273,0.0, 1, 1,15,0.20682230293834434,30,18,30
+29,14882316976.035,1099330.4278634403, 1, 1,30,31619082.4848, 1, 9,30
+65,7428812364.000004,0.0, 1, 1,30,14087300.399999999, 1, 9,30
+184,7453504612.034591,1099330.4278634403, 1, 1,30,17531782.0848, 1, 7,30
+739,5427685822.573569,0.0, 1, 1,30,57215207.422577429,17, 5,30
+925,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+996,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+4,151, 5
+7,16.000000000000005,5.7,15, 4,60,26.3,29,15,60
+8,11.06370964634924,2.4,21,19,60,17.2,29,22,60
+9,97926.04166666667,95800.0,13, 2,60,99200.0, 4, 5,60
+10,1.8181451612903215,0.0, 2, 7,60,5.7,30,16,60
+11,147.8326612903226,0.0, 2, 7,60,355.0,22, 1,30
+12,111.77016129032258,0.0, 1, 1,30,474.0,15,14,30
+13,143.75672043010753,0.0, 1, 1,30,844.0, 4,13,30
+14,177.24895491647247,0.8165499190347141,31, 1,30,353.34845102811428,23,24,60
+15,15.51140163425209,-29.92955095838047, 1, 1,30,66.58156989483551,31,13,30
+16,207751056.56253473,0.0, 1, 1,30,515978.5024899294, 6,18,30
+17,181250893.53285498,0.0, 1, 1,30,871019.4997512235,26, 9,30
+18,500453352.1820139,0.0, 1, 1,30,1241833.7897781984,28,19,30
+19,295572099.11531117,0.0, 1, 1,30,728803.8921604039,28,19,30
+20,88.86002083082168,0.0, 1, 1,30,330.23048162264066,16, 8,60
+21,76.72559005416434,0.0, 1, 1,30,636.9492504504302,15, 7,30
+22,213.69722129544068,0.0, 1, 1,30,794.7838301688314,16, 8,30
+23,124.71679116346033,0.0, 1, 1,30,466.4404798943777,13, 9,30
+24,347.18912365591486,0.0, 1, 1,30,792.358, 1, 7,30
+98,347.18912365591486,0.0, 1, 1,30,792.358, 1, 7,30
+99,1168.9203749999966,0.0, 1, 1,30,4007.7270000000005, 1, 7,30
+125,1168.9203749999966,0.0, 1, 1,30,4007.7270000000005, 1, 7,30
+126,835.5991250000047,0.0, 1, 1,30,1907.0115, 1, 7,30
+152,835.5991250000047,0.0, 1, 1,30,1907.0115, 1, 7,30
+153,490.3940443548408,0.0, 1, 1,30,1119.1815, 1, 7,30
+179,490.3940443548408,0.0, 1, 1,30,1119.1815, 1, 7,30
+217,237.56254111044019,15.8484277728, 1, 1,30,342.298656, 1, 7,30
+218,237.56254111044019,15.848427772800001, 1, 1,30,342.29865600000007, 1, 7,30
+244,1730.7132905319209,534.3619969092, 1, 1,30,8090.264904000001, 1, 7,30
+245,1730.7132905319209,534.3619969092001, 1, 1,30,8090.264904000001, 1, 7,30
+271,571.7548101575733,38.143281218400009, 1, 1,30,823.8289680000002, 1, 7,30
+272,571.7548101575733,38.143281218400009, 1, 1,30,823.8289680000003, 1, 7,30
+298,335.54984123816976,22.385420690400005, 1, 1,30,483.48640800000006, 1, 7,30
+299,335.54984123816976,22.385420690400009, 1, 1,30,483.48640800000006, 1, 7,30
+300,197.2406288335866,0.0, 1, 1,30,803.2736207181973,20,16,30
+301,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+302,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+303,95.89314318950835,0.0, 1, 1,30,595.8668403884859,20, 9,60
+304,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+305,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+306,383.81546255537537,0.0, 1, 1,30,1562.9114451955532,20,15,30
+307,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+308,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+309,276.3362595238365,0.0, 1, 1,30,1194.5196846465265,20,10,60
+310,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+311,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+312,21.81391692442915,17.300072205363706,17, 5,30,26.00906170713521,29,17,30
+313,22.862074244245453,18.185463287220619,17, 6,60,26.73443698770603,29,17,30
+314,21.8640321023835,17.2246190684531,17, 5,30,26.18983210165387,29,17,30
+315,22.024818375765567,17.32653544588454,17, 5,30,26.27512580262599,29,17,30
+316,21.199383306957324,16.212462561352994,16, 4,60,25.940742238838678,29,14,60
+317,21.506650115693227,16.83378141136849,17, 4,60,25.743911073328026,29,14,60
+318,22.485922228153475,17.161040176046606,16, 4,60,26.992522063906674,29,16,60
+319,22.673998236199457,17.85411582125547,17, 4,60,26.84863106255875,29,16,60
+320,21.15917772910472,15.905959389858939,16, 4,60,26.247019464162375,29,14,60
+321,21.511604915744124,16.708981609174214,17, 4,60,26.042051137318734,29,14,60
+322,21.31300919313347,16.107857871680449,16, 4,60,26.396944981444159,29,14,60
+323,21.66891378444951,16.83033834989593,17, 4,60,26.219807492611595,29,14,60
+324,1799225285.956783,0.0, 1,11,40,2704239.6774202187,15, 5,60
+325,3909259.9729867705,0.0, 1, 1,15,289597.4984357297,29,15,60
+326,0.7114179643178628,0.6869210712200145,29,15, 6,0.7297989710774387,15, 5,30
+327,3777094153.7398955,0.0, 5,17,15,4865612.065281357,15,22,60
+328,2405912.6871386745,0.0, 1, 1,15,226145.62151092839,28,17,60
+329,0.7144259300563253,0.6889099837646612,29,17, 5,0.7366248787536441,16, 7,29
+330,4295648665.489816,0.0, 1,11,40,6508414.28160238,15, 5,60
+331,8832911.679381218,0.0, 1, 1,15,696987.6354229475,29,15,60
+332,0.7113134991162329,0.6870425787118727,29,15, 6,0.7297962956310418,15, 5,30
+333,2595565695.142425,0.0, 5,16,60,3819645.455927529,15, 5,60
+334,4882915.744672421,0.0, 1, 1,15,409046.49282648626,29,15,60
+335,0.7116872978566894,0.6873706811324233,29,15, 6,0.7297971709728,15, 5,30
+336,121654550.17739924,0.0, 1, 1,15,2287987.273395853, 7,18,30
+337,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+338,0.1869416387772866,0.0, 1, 1,15,5.049045556831975, 8,21,30
+339,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+376,1542156116.9332,0.0, 1, 1,15,13963520.04896176,15, 9,60
+377,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+378,0.2728543031923983,0.0, 1, 1,15,5.210885811846123,12, 7,29
+379,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+392,333011816.4782453,0.0, 1, 1,15,5661376.2455052849, 7,18,30
+393,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+394,0.1992610818950034,0.0, 1, 1,15,5.058280692771779, 8,21,60
+395,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+408,218564009.03748299,0.0, 1, 1,15,3503652.0174524325, 7,18,30
+409,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+410,0.21252282720999716,0.0, 1, 1,15,5.0601502872054919, 8,21,60
+411,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+510,21.217521986646028,0.0, 1, 1,15,6072.19295859841,15, 5, 5
+511,76.1610314918449,0.0, 1, 1,15,3501.231146671341,29,15, 6
+512,53.888496265701679,28.978581608878778,21,19,30,71.55357746993409,18,24,45
+551,9.39855849114598,0.0, 1, 1,15,7567.814852943835,16, 5, 4
+552,244.48473519023478,0.0, 1, 1,15,12831.704443820294,29,17, 5
+553,49.26636024785741,24.194924607661038,21,19,30,66.96779543109222,19, 6,60
+592,58.04026433683541,0.0, 1, 1,15,13914.479949991888,20, 7, 2
+593,191.24440161079662,0.0, 1, 1,15,10422.253784120578,29,15, 6
+594,54.05114030389457,28.635846657732779,21,18,60,71.99784534863253,18,24,45
+633,29.03942250549249,0.0, 1, 1,15,8502.94358788305,14, 7, 2
+634,116.24596053569356,0.0, 1, 1,15,6195.6097327405509,29,15, 6
+635,53.53510792169285,28.654147089318096,21,19,30,71.37877424470988,18,24,45
+734,746.4857393155605,0.0, 1, 1,15,4714.646774624572, 1, 7, 3
+895,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+958,24.72396690124372,0.0, 1, 1,15,6534.868502599532,15, 5, 5
+959,23.326844591994765,0.0, 1, 1,15,3737.030413764456,29,15, 6
+960,28.175425417272618,0.0, 1, 1,15,5592.405822135637,29,15, 6
+961,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+962,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+963,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+964,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+967,9.463836572499157,0.0, 1, 1,15,7923.492412976537,16, 5, 4
+968,114.86407620258132,0.0, 1, 1,15,14510.861044414123,29,17, 5
+969,138.59647217334993,0.0, 1, 1,15,20506.939528443876,29,17, 5
+970,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+971,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+972,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+973,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+976,67.32159632918092,0.0, 1, 1,15,14676.036228618312,15, 5, 5
+977,64.58038021834118,0.0, 1, 1,15,11332.869827107077,29,15, 6
+978,77.76478510550584,0.0, 1, 1,15,16925.000255179497,29,15, 6
+979,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+980,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+981,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+982,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+985,33.89408003154302,0.0, 1, 1,15,8896.845735644269,15, 5, 5
+986,39.6833142315447,0.0, 1, 1,15,6790.19063368273,29,15, 6
+987,47.87939250263545,0.0, 1, 1,15,10426.318951471143,29,15, 6
+988,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+989,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+990,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+991,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+1019,0.067918490294186,0.0, 1, 1,15,0.2104024119080552, 9,20,30
+1020,0.047286600118475897,0.0, 1, 1,15,0.30737731251391506,13, 9,60
+1021,0.06792011279879565,0.0, 1, 1,15,0.21039232777673745, 9,20,30
+1022,0.06794323713643198,0.0, 1, 1,15,0.2104013270888709, 9,20,30
+29,15314242551.769518,1099330.4278634403, 1, 1,30,31619082.4848, 1, 7,30
+65,7612287785.999999,0.0, 1, 1,30,14087300.399999999, 1, 7,30
+184,7701954765.769073,1099330.4278634403, 1, 1,30,17531782.0848, 1, 7,30
+739,2362052084.5714156,0.0, 1, 1,30,24686712.167040357,16, 5,30
+925,783207215.8123691,0.0, 1, 1,30,23140981.661236589,29,17,30
+996,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+4,181, 6
+7,19.48069444444444,9.0, 6, 4,60,30.5,30,16,60
+8,14.307264510865455,-2.7, 5,13,60,21.0,29,19,60
+9,98180.76388888889,97000.0, 4,19,60,98800.0,13, 1,60
+10,2.2721875,0.0, 1, 7,60,10.7, 5,10,60
+11,147.13541666666667,0.0, 1, 7,60,355.0, 1,22,30
+12,116.28368055555555,0.0, 1, 1,30,463.0, 1,12,30
+13,172.46805555555557,0.0, 1, 1,30,878.0, 5,13,30
+14,176.3474044637295,0.02195271178918961,18, 1,30,353.246316372958, 1,24,60
+15,19.022776009939677,-22.821103584274007, 1, 1,30,68.22804807288597,22,13,30
+16,224863933.19306944,0.0, 1, 1,30,515978.5024899318,29,21,60
+17,184152470.5593056,0.0, 1, 1,30,872583.1278116882,24, 9,60
+18,539622340.6567166,0.0, 1, 1,30,1241833.7897782019,24,18,60
+19,318672045.83513376,0.0, 1, 1,30,728803.8921604058,30,20,60
+20,80.6665777044508,0.0, 1, 1,30,323.8124586890657,12, 8,30
+21,73.35044343238984,0.0, 1, 1,30,623.367966557959,12, 7,30
+22,194.75040372854924,0.0, 1, 1,30,784.3874484776035,12, 8,30
+23,113.53066903508965,0.0, 1, 1,30,457.29354416231049,12, 8,30
+24,347.75712222222298,0.0, 1, 1,30,792.358, 1, 7,30
+98,347.75712222222298,0.0, 1, 1,30,792.358, 1, 7,30
+99,1168.9203749999968,0.0, 1, 1,30,4007.7270000000005, 1, 7,30
+125,1168.9203749999968,0.0, 1, 1,30,4007.7270000000005, 1, 7,30
+126,836.966158333338,0.0, 1, 1,30,1907.0115, 1, 7,30
+152,836.966158333338,0.0, 1, 1,30,1907.0115, 1, 7,30
+153,491.1963250000021,0.0, 1, 1,30,1119.1815, 1, 7,30
+179,491.1963250000021,0.0, 1, 1,30,1119.1815, 1, 7,30
+217,237.56254111044007,15.8484277728, 1, 1,30,342.298656, 1, 7,30
+218,237.56254111044007,15.848427772800001, 1, 1,30,342.29865600000007, 1, 7,30
+244,1730.7132905319218,534.3619969092, 1, 1,30,8090.264904000001, 1, 7,30
+245,1730.7132905319218,534.3619969092001, 1, 1,30,8090.264904000001, 1, 7,30
+271,571.7548101575728,38.143281218400009, 1, 1,30,823.8289680000002, 1, 7,30
+272,571.7548101575728,38.143281218400009, 1, 1,30,823.8289680000003, 1, 7,30
+298,335.54984123816976,22.385420690400005, 1, 1,30,483.48640800000006, 1, 7,30
+299,335.54984123816976,22.385420690400009, 1, 1,30,483.48640800000006, 1, 7,30
+300,216.95618222411569,0.0, 1, 1,30,817.0963393357201, 5,16,30
+301,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+302,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+303,111.36610115451774,0.0, 1, 1,30,598.7438241128926,30, 9,30
+304,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+305,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+306,394.769524850485,0.0, 1, 1,30,1423.730074007212, 5,15,30
+307,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+308,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+309,296.51951251750418,0.0, 1, 1,30,1130.6780914262866, 5,10,60
+310,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+311,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+312,23.695359993188878,19.05580860881383,13, 6,60,27.100998082060515,24,17,30
+313,24.492115588926496,19.759914832752448,12, 6,60,27.98726218192581,24,17,30
+314,23.67027589516992,18.965509898534625,13, 6,60,27.32563988210351,23,15,30
+315,23.848309503249184,19.098214309309033,13, 6,60,27.414161718437659,23,15,30
+316,23.053134612355998,17.89410429179208,12, 4,60,27.774991106054288,30,14,60
+317,23.374247302772447,18.527904322387366,13, 6,60,27.323908165350603,30,14,60
+318,23.97530242983418,18.52041480533884,12, 6,60,28.62498609980229,30,16,60
+319,24.23370900938033,19.140164819045645,12, 6,60,28.184411563332483,30,16,60
+320,22.96928288042379,17.580965762599964,12, 4,60,28.041083971061789,30,14,60
+321,23.319779387796858,18.381510337357964,12, 4,60,27.544176546831677,30,14,60
+322,23.117215211299983,17.850334345088965,12, 4,60,28.188839026850674,30,14,60
+323,23.482762357274578,18.54910715475151,13, 6,60,27.73108729518783,30,14,60
+324,1254635163.2196062,0.0, 1,12,45,2644783.3652354257, 6, 4,60
+325,63018272.79393127,0.0, 1, 1,30,1212234.3324708143,30,16,60
+326,0.7071990833244466,0.6745256317562548,29,17, 3,0.7280807033521335, 6, 4,60
+327,2591827776.6846659,0.0, 1,13,45,4825784.506588301,11,22,60
+328,68791752.74564311,0.0, 1, 1,30,1932399.9655616959,30,19,60
+329,0.709202618964629,0.6779673730002477,30,17, 9,0.7332574009087656,11, 7,24
+330,2947752904.7910997,0.0, 1,12,45,6165648.59475708, 6, 4,60
+331,147425200.67598943,0.0, 1, 1,30,2917538.4493163519,30,16,60
+332,0.7069961562755609,0.674527050490784,29,17, 3,0.727209073797799, 6, 4,60
+333,1797448572.285452,0.0, 1,13,15,3721502.4932013077, 6, 4,60
+334,84750683.404716,0.0, 1, 1,30,1712239.0928901814,30,16,60
+335,0.7073442742336772,0.6745143890365596,29,17, 3,0.7279735865820961, 6, 4,60
+336,319866184.8699593,0.0, 1, 1,30,3028537.1701510988,19,19,60
+337,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+338,0.5251847108990472,0.0, 1, 1,30,5.0725526275445829,19,20,19
+339,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+376,2012142137.6405595,0.0, 1, 1,30,13372820.361873543,19, 8,60
+377,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+378,0.4857577464165808,0.0, 1, 1,30,5.218788619551192,11, 7,27
+379,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+392,767621385.1309608,0.0, 1, 1,30,6472076.228260952,25,18,60
+393,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+394,0.525476476953561,0.0, 1, 1,30,5.068427973222911,26,20,25
+395,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+408,496407966.12076589,0.0, 1, 1,30,4257460.908904793,19,19,60
+409,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+410,0.5494568394445289,0.0, 1, 1,30,5.072761518279272,19,20,19
+411,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+510,0.6167749699971096,0.0, 1, 1,30,266.2783635488584,12, 5,15
+511,191.88456350208549,0.0, 1, 1,30,4013.8306200963936,30,15,39
+512,59.171742135306079,17.111823068972226, 5,14,30,78.30534726679284, 2, 1,15
+551,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+552,645.2164412412878,0.0, 1, 1,30,11263.486179618247,30,17, 6
+553,54.971941300724399,16.404823571073398, 5,14,30,75.3355240273658,26,16,60
+592,4.169118443790765,0.0, 1, 1,30,2147.9028892534954,12, 5,15
+593,447.0897145715727,0.0, 1, 1,30,9847.182540955622,30,15,39
+594,59.51028530315912,16.973206136785764, 5,14,30,78.41757201074776, 2, 1,15
+633,1.0307162769886945,0.0, 1, 1,30,497.37232877103079,12, 5,15
+634,279.6728962818196,0.0, 1, 1,30,6242.680904034047,30,15,39
+635,58.94480117994827,16.687861726978949, 5,14,30,78.77186762716456,23, 8,30
+734,746.4857393155604,0.0, 1, 1,30,4714.646774624572, 1, 7, 2
+895,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+958,0.6138069977526484,0.0, 1, 1,30,267.92526558283677,12, 5,15
+959,157.81718193248956,0.0, 1, 1,30,4194.086450725366,30,15,13
+960,244.54144192311103,0.0, 1, 1,30,6930.00389813288,29,15, 5
+961,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+962,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+963,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+964,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+967,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+968,553.9111899449125,0.0, 1, 1,30,12611.934964529868,30,17, 6
+969,822.5150680174816,0.0, 1, 1,30,21046.933191073236,22,17, 3
+970,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+971,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+972,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+973,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+976,4.188491944983671,0.0, 1, 1,30,2199.533346856606,12, 5,15
+977,366.58234146388966,0.0, 1, 1,30,10445.3237247116,30,15,13
+978,570.0616383833301,0.0, 1, 1,30,16925.000255179497,22,15, 5
+979,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+980,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+981,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+982,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+985,1.0315793853435909,0.0, 1, 1,30,501.7090933318378,12, 5,15
+986,230.94060200028333,0.0, 1, 1,30,6518.652821540469,30,15,39
+987,356.8999792413426,0.0, 1, 1,30,10426.318951471143,22,15, 5
+988,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+989,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+990,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+991,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+1019,0.06871866507418821,0.0, 1, 1,30,0.21057385907847848,25,19,60
+1020,0.04741489039597296,0.0, 1, 1,30,0.30402122413646806,25, 8,30
+1021,0.0687089845317676,0.0, 1, 1,30,0.2105728786348131,25,19,60
+1022,0.06872832326536285,0.0, 1, 1,30,0.21056877332991856,25,19,60
+29,14827329841.635024,1099330.4278634403, 1, 1,30,31619082.4848, 1, 7,30
+65,7373825229.599995,0.0, 1, 1,30,14087300.399999999, 1, 7,30
+184,7453504612.034591,1099330.4278634403, 1, 1,30,17531782.0848, 1, 7,30
+739,1950012448.9323042,0.0, 1, 1,30,8486364.19432423, 1, 7,30
+925,5168494986.649164,0.0, 1, 1,30,50419631.60967662,29,19,30
+996,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+4,212, 7
+7,23.036122311827947,15.2,17, 4,60,30.8,26,16,60
+8,18.356893897567855,10.8,15, 4,60,24.3,21,22,60
+9,97956.48521505376,96800.0, 2,15,60,98600.0,10, 8,60
+10,0.4696236559139787,0.0, 1, 1,60,6.2,23,19,60
+11,19.724462365591397,0.0, 1, 1,60,350.0, 1, 1,30
+12,103.40994623655914,0.0, 1, 1,30,503.0,13,13,30
+13,222.32392473118279,0.0, 1, 1,30,880.0,19,13,30
+14,175.08016837585414,0.70565362311729, 1, 1,30,351.90084089153995, 1,24,60
+15,17.568217810018454,-26.317069385816337,31, 1,30,67.93658152283229, 1,13,30
+16,258507665.1519599,0.0, 1, 1,30,515978.50248993517,19,20,30
+17,201217314.68680663,0.0, 1, 1,30,872583.1278351921,13, 9,30
+18,620850099.4947747,0.0, 1, 1,30,1241833.7897782077,20,21,60
+19,365534445.47891369,0.0, 1, 1,30,728803.8921604098,29,20,60
+20,77.36661578128275,0.0, 1, 1,30,260.6795517428582, 2, 9,30
+21,69.27098239513228,0.0, 1, 1,30,509.0846130841475, 2, 7,30
+22,186.69325628945229,0.0, 1, 1,30,639.9876684401585, 2, 9,30
+23,109.12854600931549,0.0, 1, 1,30,370.2167680833734, 2, 9,30
+24,351.4491129032267,0.0, 1, 1,30,792.358, 1, 9,30
+98,351.4491129032267,0.0, 1, 1,30,792.358, 1, 9,30
+99,1168.9203749999966,0.0, 1, 1,30,4007.7270000000005, 1, 7,30
+125,1168.9203749999966,0.0, 1, 1,30,4007.7270000000005, 1, 7,30
+126,845.851875000005,0.0, 1, 1,30,1907.0115, 1, 9,30
+152,845.851875000005,0.0, 1, 1,30,1907.0115, 1, 9,30
+153,496.4111491935505,0.0, 1, 1,30,1119.1815, 1, 9,30
+179,496.4111491935505,0.0, 1, 1,30,1119.1815, 1, 9,30
+217,237.56254111044019,15.8484277728, 1, 1,30,342.298656, 1, 7,30
+218,237.56254111044019,15.848427772800001, 1, 1,30,342.29865600000007, 1, 7,30
+244,1730.7132905319209,534.3619969092, 1, 1,30,8090.264904000001, 1, 7,30
+245,1730.7132905319209,534.3619969092001, 1, 1,30,8090.264904000001, 1, 7,30
+271,571.7548101575733,38.143281218400009, 1, 1,30,823.8289680000002, 1, 7,30
+272,571.7548101575733,38.143281218400009, 1, 1,30,823.8289680000003, 1, 7,30
+298,335.54984123816976,22.385420690400005, 1, 1,30,483.48640800000006, 1, 7,30
+299,335.54984123816976,22.385420690400009, 1, 1,30,483.48640800000006, 1, 7,30
+300,228.4109797006497,0.0, 1, 1,30,799.0358743329159,16,16,60
+301,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+302,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+303,120.10886137110352,0.0, 1, 1,30,591.4484262363983,20, 9,60
+304,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+305,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+306,442.6873016817189,0.0, 1, 1,30,1464.8128127316555,25,14,60
+307,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+308,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+309,327.0649806970788,0.0, 1, 1,30,1133.7274093739539,20,10,60
+310,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+311,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+312,25.703976096078166,22.78469691269865, 5, 6,60,28.002151398879886,28,15,30
+313,26.352674168117873,23.295351480766486, 5, 6,60,28.907823707264418,22,17,30
+314,25.71222896724047,22.630661082092787, 5, 6,60,28.349618895304148,28,15,30
+315,25.85600130285046,22.743003797465986, 5, 6,60,28.426609754982569,28,15,30
+316,24.72622759168484,21.96010931390543, 2, 6,60,28.45768560594336,28,14,60
+317,25.215101843881514,22.379730810766796, 5, 6,60,28.126488663151418,28,14,60
+318,25.461096291994108,22.491809168706039, 2, 6,60,29.46703506287944,22,16,60
+319,25.906885230055989,22.977671261944125, 2, 6,60,29.163115623998089,22,16,60
+320,24.6744433623305,21.60857694032305, 2, 6,60,28.859770901599679,28,14,60
+321,25.193336164785497,22.19367511336755, 5, 6,60,28.501381101730723,28,14,60
+322,24.77427923619614,21.786140781985816, 2, 6,60,28.90676409614633,28,14,60
+323,25.3151402695233,22.318578179784564, 5, 6,60,28.58139519751166,28,14,60
+324,773847936.2675545,0.0, 2,16,30,1767123.5383763859,17, 4,60
+325,195639603.13606889,0.0, 1, 1,30,1278824.0303317819,26,16,60
+326,0.7018324249515858,0.672055678230711,22,17, 2,0.7185048767452272,17, 4,60
+327,1578493219.8330429,0.0, 2,17,10,3186910.0633322999,17, 4,60
+328,189159873.77281628,0.0, 1, 1,30,1862448.4087615098,26,18,30
+329,0.703206460078658,0.6756269028228243,21,17,37,0.7216224519725036,17, 7,30
+330,1813846152.5214468,0.0, 2,16,30,4099536.1842241955,17, 4,60
+331,464814888.14101466,0.0, 1, 1,30,3077802.5211350156,26,16,60
+332,0.701728220672344,0.6720577380843321,22,17, 2,0.7178336567702119,17, 4,60
+333,1109996343.4015218,0.0, 2,16,30,2482970.1472042456,17, 4,60
+334,270670361.68740859,0.0, 1, 1,30,1806294.448864568,26,16,60
+335,0.7019267752754749,0.672050757383098,22,17, 2,0.718406258847593,17, 4,60
+336,456257394.934563,0.0, 1, 1,30,3544580.512003985,15,20,30
+337,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+338,0.6314519213346422,0.0, 1, 1,30,5.075723857076188, 1, 9,30
+339,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+376,1895198869.7820526,0.0, 1, 1,30,14374285.809401276,30, 7,60
+377,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+378,0.644573986046442,0.0, 1, 1,30,5.135985697978387, 2, 7,26
+379,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+392,988924826.8476114,0.0, 1, 1,30,8213038.179585992,15,20,30
+393,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+394,0.6059971641087272,0.0, 1, 1,30,5.0667123506628048, 3,21,30
+395,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+408,658944350.5103686,0.0, 1, 1,30,4997270.239443271,15,20,30
+409,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+410,0.6384110407187408,0.0, 1, 1,30,5.071959550542754, 1,14,60
+411,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+510,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+511,653.7006684662601,0.0, 1, 1,30,4740.766511073112,17,15, 5
+512,65.24417230288523,43.967602302729897,16,18,60,87.3297542907269,21,23,60
+551,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+552,1649.3671488641156,0.0, 1, 1,30,15205.654440491617,30,17, 2
+553,60.88154613489579,37.685116339517509,16,16,60,83.3248209264642,22, 5,20
+592,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+593,1500.9827674333138,0.0, 1, 1,30,11317.595913845726,17,15, 5
+594,65.58372404189028,43.96631785990334,16,18,60,87.77729891188824,21,23,60
+633,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+634,951.616900395648,0.0, 1, 1,30,7101.21777885492,17,15, 5
+635,64.99278048157304,43.96727488267354,16,18,60,86.78769866492675,21,23,30
+734,746.4857393155605,0.0, 1, 1,30,4714.646774624572, 1, 7,15
+895,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+958,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+959,652.2405105475141,0.0, 1, 1,30,5115.824792977889,17,15, 5
+960,1036.627929411514,0.0, 1, 1,30,6930.00389813288,12,15, 3
+961,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+962,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+963,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+964,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+967,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+968,1606.3881071915608,0.0, 1, 1,30,16348.186588286257,30,17, 2
+969,2565.631295279211,0.0, 1, 1,30,21046.93319107324,22, 9,60
+970,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+971,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+972,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+973,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+976,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+977,1498.3953380123228,0.0, 1, 1,30,12210.539614222012,17,15, 5
+978,2393.086436383981,0.0, 1, 1,30,16925.000255179497, 6,15, 6
+979,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+980,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+981,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+982,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+985,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+986,949.9873749226807,0.0, 1, 1,30,7695.6464196643669,17,15, 5
+987,1505.9345354769262,0.0, 1, 1,30,10426.318951471143, 6,15, 6
+988,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+989,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+990,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+991,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+1019,0.07203757668109373,0.0, 1, 1,30,0.21259860710104079, 2,19,30
+1020,0.04780297389759161,0.0, 1, 1,30,0.30665502910134159, 2, 9,60
+1021,0.07203651410628258,0.0, 1, 1,30,0.21258886892465157, 2,19,30
+1022,0.07203606656244417,0.0, 1, 1,30,0.21260170539512564, 2,19,30
+29,15369229686.169518,1099330.4278634403, 1, 1,30,31619082.4848, 1, 9,30
+65,7667274920.4,0.0, 1, 1,30,14087300.399999999, 1, 9,30
+184,7701954765.769073,1099330.4278634403, 1, 1,30,17531782.0848, 1, 7,30
+739,1999387404.182785,0.0, 1, 1,30,8486364.194324229, 1, 7,30
+925,20091428878.443918,0.0, 1, 1,30,73109433.57886164,22,17,30
+996,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+4,243, 8
+7,21.97348790322581,7.7,30, 4,60,31.0, 3,16,60
+8,16.979267133134063,4.0,30,10,60,24.1, 7,19,60
+9,97995.6317204301,96800.0,23,15,60,98800.0, 2, 9,60
+10,0.4415322580645162,0.0, 1, 1,30,7.7,29,19,60
+11,26.344086021505377,0.0, 1, 1,30,355.0, 6, 4,30
+12,102.31014784946237,0.0, 1, 1,30,420.0,20,13,30
+13,181.72043010752689,0.0, 1, 1,30,864.0, 5,13,30
+14,175.4230053812362,0.009614337308396302,31, 1,30,350.9016443819629,31,24,60
+15,11.504092863968176,-35.868956376380939,31, 1,30,62.957902979755697, 1,13,30
+16,242837626.6606076,0.0, 1, 1,30,515978.5024899346, 6,15,30
+17,197878107.10702599,0.0, 1, 1,30,881808.4822144249, 4, 9,60
+18,584009601.6747629,0.0, 1, 1,30,1241833.7897782082, 7,21,60
+19,343785775.2309029,0.0, 1, 1,30,728803.8921604112,10,20,30
+20,75.76019627210269,0.0, 1, 1,30,301.7852468697994,30, 8,30
+21,70.51769968148995,0.0, 1, 1,30,581.722470906521,30, 7,30
+22,182.50089158638026,0.0, 1, 1,30,732.1147854650635,30, 8,30
+23,106.7158666878063,0.0, 1, 1,30,423.9597058002088,30, 8,30
+24,347.18912365591486,0.0, 1, 1,30,792.358, 1, 7,30
+98,347.18912365591486,0.0, 1, 1,30,792.358, 1, 7,30
+99,1168.9203749999966,0.0, 1, 1,30,4007.7270000000005, 1, 7,30
+125,1168.9203749999966,0.0, 1, 1,30,4007.7270000000005, 1, 7,30
+126,835.5991250000047,0.0, 1, 1,30,1907.0115, 1, 7,30
+152,835.5991250000047,0.0, 1, 1,30,1907.0115, 1, 7,30
+153,490.3940443548408,0.0, 1, 1,30,1119.1815, 1, 7,30
+179,490.3940443548408,0.0, 1, 1,30,1119.1815, 1, 7,30
+217,237.56254111044019,15.8484277728, 1, 1,30,342.298656, 1, 7,30
+218,237.56254111044019,15.848427772800001, 1, 1,30,342.29865600000007, 1, 7,30
+244,1730.7132905319209,534.3619969092, 1, 1,30,8090.264904000001, 1, 7,30
+245,1730.7132905319209,534.3619969092001, 1, 1,30,8090.264904000001, 1, 7,30
+271,571.7548101575733,38.143281218400009, 1, 1,30,823.8289680000002, 1, 7,30
+272,571.7548101575733,38.143281218400009, 1, 1,30,823.8289680000003, 1, 7,30
+298,335.54984123816976,22.385420690400005, 1, 1,30,483.48640800000006, 1, 7,30
+299,335.54984123816976,22.385420690400009, 1, 1,30,483.48640800000006, 1, 7,30
+300,200.85966624923635,0.0, 1, 1,30,771.3324612669136, 5,16,60
+301,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+302,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+303,104.4363554129731,0.0, 1, 1,30,572.8913626632269, 9,10,30
+304,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+305,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+306,454.2062292686009,0.0, 1, 1,30,1889.5019393006456,29,14,60
+307,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+308,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+309,324.88165197229599,0.0, 1, 1,30,1343.8408979829274,29,11,30
+310,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+311,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+312,25.17153934548894,21.045643142983804,30, 7,30,28.261236310322589, 4,15,30
+313,25.87273631983013,21.536053034306346,30, 6,60,29.05131732830628, 3,17,30
+314,25.271081417086138,21.001114930874,30, 7,30,28.56814954552198, 3,15,30
+315,25.403131519681094,21.20957796961071,30, 7,30,28.66204987249506, 3,15,30
+316,24.312994236398798,19.482963765529669,30, 6,60,28.69330933893519, 3,14,60
+317,24.74226679094389,20.282421470272277,30, 6,60,28.348815106636708, 3,14,60
+318,25.110318840280887,20.044944249177438,30, 6,60,29.66302214750694, 3,16,60
+319,25.49152758005551,20.79049864174189,30, 6,60,29.33691473737494, 3,16,60
+320,24.304396758498805,19.26652749110553,30, 6,60,29.091405312210079, 3,14,60
+321,24.787739087792468,20.15008445477777,30, 6,60,28.718625229845473, 3,14,60
+322,24.41027576015999,19.538237422872454,30, 6,60,29.151277319623018, 3,14,60
+323,24.906703639920506,20.391499213697217,30, 6,60,28.812432976280819, 3,14,60
+324,953005031.2812611,0.0, 1,15, 8,2890508.228160169,30, 4,60
+325,149849662.97293637,0.0, 1, 1,30,1321203.4850847163, 3,16,60
+326,0.7035031799230259,0.6703443459385957, 3,17, 2,0.7306856462880741,30, 4,60
+327,1954203472.3808015,0.0, 1,17, 3,5114952.830501413,30, 4,60
+328,147096804.89701665,0.0, 1, 1,30,2045450.154567819, 3,18,30
+329,0.7051080052277947,0.6738204561744527, 3,17,36,0.7360689152067694,29, 7,57
+330,2278905154.3437168,0.0, 1,15, 8,6844470.176412684,30, 4,60
+331,353605228.6845377,0.0, 1, 1,30,3179841.0252950128, 3,16,60
+332,0.7034806735390731,0.6703492680845146, 3,17, 2,0.7301943862017404,30, 4,60
+333,1386411060.0859867,0.0, 1,15, 8,4107296.281291655,30, 4,60
+334,205701496.6934585,0.0, 1, 1,30,1866178.2601367313, 3,16,60
+335,0.7037092140441513,0.670341840023531, 3,17, 2,0.7308654804152159,30, 4,60
+336,468950452.35245767,0.0, 1, 1,30,3809651.5783649466, 4,21,30
+337,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+338,0.5651526193480473,0.0, 1, 1,30,5.075663273281332,11,21,60
+339,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+376,2064399354.9222444,0.0, 1, 1,30,14615097.916621315, 5, 7,30
+377,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+378,0.6012234207997897,0.0, 1, 1,30,5.244464490752979,29, 7,60
+379,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+392,1104940020.3005074,0.0, 1, 1,30,8747227.815740684, 4,21,30
+393,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+394,0.5614671400910373,0.0, 1, 1,30,5.079713649407704,30,20,29
+395,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+408,725460931.0508014,0.0, 1, 1,30,5424986.870538879, 4,21,30
+409,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+410,0.5934756780114835,0.0, 1, 1,30,5.076801582651185,11,21,60
+411,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+510,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+511,469.1337823463469,0.0, 1, 1,30,4138.247568312613, 3,15,53
+512,62.517315483856439,29.535131006413253,30,15,30,84.87146579342824,18, 2,60
+551,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+552,1269.5399919073698,0.0, 1, 1,30,13269.013510916766,20,17, 4
+553,58.33634642836659,27.405134250493164,29,19,60,80.71538152273257,18, 3,60
+592,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+593,1124.0803078979103,0.0, 1, 1,30,10226.559017885678, 3,15,53
+594,62.594685710650519,28.756452690986984,30,15,60,84.87483503862998,18, 3,30
+633,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+634,704.429916000952,0.0, 1, 1,30,6572.926727859639, 3,15,53
+635,62.07537247061443,28.529985943859104,30,15,30,84.37789906378845,18, 3,30
+734,746.4857393155605,0.0, 1, 1,30,4714.646774624572, 1, 7,15
+895,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+958,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+959,455.66255441281359,0.0, 1, 1,30,4310.966476404947,14,15, 7
+960,750.5601724736223,0.0, 1, 1,30,6930.00389813288, 1,15, 4
+961,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+962,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+963,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+964,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+967,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+968,1207.7687629056616,0.0, 1, 1,30,14786.477783815915,20,17, 4
+969,1965.1732917715804,0.0, 1, 1,30,21046.933191073236, 1,17, 3
+970,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+971,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+972,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+973,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+976,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+977,1092.7277881521016,0.0, 1, 1,30,10745.856077919445,14,15, 7
+978,1796.6897686791618,0.0, 1, 1,30,16925.0002551795,11,15,22
+979,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+980,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+981,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+982,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+985,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+986,685.5216002057008,0.0, 1, 1,30,6754.760829138627, 3,15,53
+987,1119.464545738563,0.0, 1, 1,30,10426.318951471145, 3,15, 6
+988,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+989,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+990,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+991,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+1019,0.06875560249563716,0.0, 1, 1,30,0.21176412360659034,22,21,30
+1020,0.0476787621851027,0.0, 1, 1,30,0.3068596958288824,23, 9,60
+1021,0.06875259745866391,0.0, 1, 1,30,0.21175758557120168,22,21,30
+1022,0.06875920890552934,0.0, 1, 1,30,0.21175259168853956,22,21,60
+29,15314242551.769516,1099330.4278634403, 1, 1,30,31619082.4848, 1, 7,30
+65,7612287786.0,0.0, 1, 1,30,14087300.399999999, 1, 7,30
+184,7701954765.769073,1099330.4278634403, 1, 1,30,17531782.0848, 1, 7,30
+739,1999387404.182785,0.0, 1, 1,30,8486364.194324229, 1, 7,30
+925,15084448226.370789,0.0, 1, 1,30,72280130.15907477, 3,17,30
+996,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+4,273, 9
+7,18.154513888888898,10.2,30, 7,60,26.7, 4,16,60
+8,14.630447934970189,8.9,30, 7,60,20.7,17,19,60
+9,98503.40277777778,97600.0,10, 4,60,99800.0,29, 1,60
+10,0.16305555555555557,0.0, 1, 1,30,4.6,25,15,60
+11,12.88888888888889,0.0, 1, 1,30,355.0,27, 1,30
+12,78.790625,0.0, 1, 1,30,377.0, 5,12,30
+13,125.6,0.0, 1, 1,30,815.0, 4,13,30
+14,177.57397240081307,0.1048153167412421, 1, 1,30,352.7754484540092,30,24,60
+15,2.576285661533805,-47.235878743477808,30, 1,30,53.331090234562129, 1,13,30
+16,220816230.1648206,0.0, 1, 1,30,515978.5024899275, 2,19,30
+17,180930028.9527337,0.0, 1, 1,30,871884.2765070625,19, 7,60
+18,534172822.5868023,0.0, 1, 1,30,1241833.7897781956, 2,18,60
+19,315328955.91328349,0.0, 1, 1,30,728803.8921604013, 2,18,60
+20,86.0809447108627,0.0, 1, 1,30,330.067562862421,30, 9,30
+21,74.59366936085128,0.0, 1, 1,30,615.2742363447047,30, 7,30
+22,206.12547386368574,0.0, 1, 1,30,794.7838301688303,30, 9,30
+23,120.26233770531325,0.0, 1, 1,30,460.39486608698209,30, 9,30
+24,349.9581166666675,0.0, 1, 1,30,792.358, 1, 7,30
+98,349.9581166666675,0.0, 1, 1,30,792.358, 1, 7,30
+99,1168.9203749999968,0.0, 1, 1,30,4007.7270000000005, 1, 7,30
+125,1168.9203749999968,0.0, 1, 1,30,4007.7270000000005, 1, 7,30
+126,842.2634125000047,0.0, 1, 1,30,1907.0115, 1, 7,30
+152,842.2634125000047,0.0, 1, 1,30,1907.0115, 1, 7,30
+153,494.3051625000021,0.0, 1, 1,30,1119.1815, 1, 7,30
+179,494.3051625000021,0.0, 1, 1,30,1119.1815, 1, 7,30
+217,237.56254111044007,15.8484277728, 1, 1,30,342.298656, 1, 7,30
+218,237.56254111044007,15.848427772800001, 1, 1,30,342.29865600000007, 1, 7,30
+244,1730.7132905319218,534.3619969092, 1, 1,30,8090.264904000001, 1, 7,30
+245,1730.7132905319218,534.3619969092001, 1, 1,30,8090.264904000001, 1, 7,30
+271,571.7548101575728,38.143281218400009, 1, 1,30,823.8289680000002, 1, 7,30
+272,571.7548101575728,38.143281218400009, 1, 1,30,823.8289680000003, 1, 7,30
+298,335.54984123816976,22.385420690400005, 1, 1,30,483.48640800000006, 1, 7,30
+299,335.54984123816976,22.385420690400009, 1, 1,30,483.48640800000006, 1, 7,30
+300,146.1251369011719,0.0, 1, 1,30,743.9717513581802, 2,16,30
+301,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+302,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+303,73.4121666646037,0.0, 1, 1,30,536.5567869052168, 4,10,30
+304,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+305,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+306,387.55324390664927,0.0, 1, 1,30,1996.4345279207362,21,14,30
+307,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+308,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+309,266.7491094520653,0.0, 1, 1,30,1369.5846882466554,21,11,30
+310,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+311,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+312,22.758940260194458,18.94226940988035,30, 8,30,25.374162211983646, 8,17,30
+313,23.68745831224384,19.96946657740668,29, 6,60,25.904412275408779, 8,16,60
+314,22.96823396627317,18.953134183428984,29, 6,60,25.83720547828836, 8,17,30
+315,23.11995969746615,19.082844502175278,29, 6,60,25.92533807456105, 8,15,60
+316,22.28298607705431,17.821328528600618,30, 6,60,25.11016863305076, 8,14,60
+317,22.520963168624399,18.46127508234651,30, 6,60,25.187081105991824, 8,17,30
+318,23.38188020844947,18.824815331867666,30, 6,60,26.15413048329806, 4,16,60
+319,23.53466926034665,19.428419540318538,30, 6,60,25.9514000284151, 8,16,60
+320,22.35054524491439,17.783626209644635,30, 6,60,25.649811178824004, 8,14,60
+321,22.659389605593775,18.476567104973,29, 6,60,25.646565443910867, 8,14,60
+322,22.48928985297549,18.000041753135255,29, 6,60,25.766386733591987, 8,14,60
+323,22.80462477522081,18.541443127655265,29, 6,60,25.772778281970575, 8,14,60
+324,1381819046.357511,0.0, 4,14,60,2060306.3166837046, 2, 4,60
+325,2949405.6580690157,0.0, 1, 1,30,379103.9228681024, 4,16,60
+326,0.7083340620166726,0.6885462404085383, 7,17, 7,0.7229488504941436,23, 7,59
+327,2943944792.9415829,0.0, 4,16,30,3871769.883375696,27,22,60
+328,1543161.5983220819,0.0, 1, 1,30,226031.67205889876, 4,17,60
+329,0.7108144241581366,0.6887529948541473, 7,17, 7,0.7338960282637246,30, 8,30
+330,3377369740.309147,0.0, 4,15,15,4932066.493078846, 2, 4,60
+331,5443013.232359298,0.0, 1, 1,30,912406.2786818408, 4,16,60
+332,0.7084833207298102,0.688488867136168, 7,17, 7,0.722990563051397,23, 7,59
+333,2047240772.2893689,0.0, 4,15,15,2987646.6150437269, 2, 4,60
+334,3014535.7423673735,0.0, 1, 1,30,535471.2132638223, 4,16,60
+335,0.708816985523184,0.6884839457192163, 7,17, 7,0.7236329995392151,23, 7,59
+336,208801829.7269729,0.0, 1, 1,30,1986137.243967478,17,19,30
+337,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+338,0.35248258183072497,0.0, 1, 1,30,5.0637344310026199, 3,20,60
+339,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+376,2016850313.9023174,0.0, 1, 1,30,13451739.140986577,19, 9,60
+377,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+378,0.4007371839511462,0.0, 1, 1,30,5.202482406911287,30, 8,53
+379,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+392,624314964.5141624,0.0, 1, 1,30,4946736.051819355,17,19,30
+393,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+394,0.38892937410809788,0.0, 1, 1,30,5.071283945392982, 6,21,30
+395,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+408,396469769.4255909,0.0, 1, 1,30,2986698.7567515459,17,19,30
+409,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+410,0.40569171965721298,0.0, 1, 1,30,5.060560694766063, 6,20,60
+411,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+510,0.29641321686486346,0.0, 1, 1,30,1156.67437079493,30, 7, 3
+511,58.57404354481163,0.0, 1, 1,30,843.6385004606584, 7,17,15
+512,63.30993732753771,38.30088121990732, 4,18,60,83.0880155705215,17,20,40
+551,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+552,254.83733205447846,0.0, 1, 1,30,5875.448483423558, 8, 8,20
+553,58.37162784343185,38.11705188238545, 4,16,60,76.81912761116078,17, 3,60
+592,1.391076272049933,0.0, 1, 1,30,3413.338778565872,30, 7, 3
+593,163.03292746543597,0.0, 1, 1,30,3730.3352314806236, 8,15,10
+594,63.0439751623955,38.31993237248615, 4,18,60,82.84001966664664,17,20,40
+633,0.17576227199243719,0.0, 1, 1,30,253.09767166910957,29, 6,60
+634,99.02595836238364,0.0, 1, 1,30,2576.3579124875379, 8,15,10
+635,62.498020183081447,38.32260405098947, 4,18,60,82.59745464777328,17,20,40
+734,746.4857393155604,0.0, 1, 1,30,4714.646774624572, 1, 7, 3
+895,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+958,0.2971701216407736,0.0, 1, 1,30,1168.7222542136104,30, 7, 3
+959,11.04849985283025,0.0, 1, 1,30,850.2992620528106, 7,17,30
+960,13.682032524519597,0.0, 1, 1,30,1182.9620448240362, 7,18,30
+961,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+962,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+963,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+964,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+967,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+968,144.09842805387405,0.0, 1, 1,30,6010.82161745605, 4,17, 7
+969,219.17136145586398,0.0, 1, 1,30,8250.408163895505, 8, 8,20
+970,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+971,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+972,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+973,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+976,1.3934361646393259,0.0, 1, 1,30,3456.301080283281,30, 7, 3
+977,46.55877500401709,0.0, 1, 1,30,3907.6682674055048, 8,15,10
+978,57.85504003064257,0.0, 1, 1,30,6094.482759559805, 8,15,10
+979,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+980,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+981,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+982,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+985,0.17570351971089699,0.0, 1, 1,30,253.01306838369167,29, 6,60
+986,29.187204091887453,0.0, 1, 1,30,2719.5983332058387, 8,15,10
+987,36.569699111517078,0.0, 1, 1,30,4228.742803679835, 8,15,10
+988,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+989,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+990,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+991,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+1019,0.06989336313768265,0.0, 1, 1,30,0.20993014606444417,17,16,60
+1020,0.0471900215625413,0.0, 1, 1,30,0.30292876682331795,17, 7,60
+1021,0.06990907800232298,0.0, 1, 1,30,0.2099755412836937,17,16,60
+1022,0.06992899887460295,0.0, 1, 1,30,0.2099837384758296,17,16,60
+29,14854823408.83502,1099330.4278634403, 1, 1,30,31619082.4848, 1, 7,30
+65,7401318796.799996,0.0, 1, 1,30,14087300.399999999, 1, 7,30
+184,7453504612.034591,1099330.4278634403, 1, 1,30,17531782.0848, 1, 7,30
+739,1939728511.3230499,0.0, 1, 1,30,9318868.39453367,30, 7,30
+925,848304921.0536321,0.0, 1, 1,30,16631399.045706522, 7,17,30
+996,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+4,304,10
+7,12.365456989247317,2.0,31, 7,60,23.0,15,16,60
+8,10.378696188826626,-0.7,31, 7,60,16.1, 1,16,60
+9,98567.2379032258,96400.0, 5, 1,60,99700.0,29,21,60
+10,0.2512096774193549,0.0, 1, 1,30,6.7, 4,19,60
+11,24.206989247311829,0.0, 1, 1,30,355.0, 3,16,30
+12,56.72715053763441,0.0, 1, 1,30,321.0, 8,13,30
+13,86.2258064516129,0.0, 1, 1,30,723.0, 2,13,30
+14,179.8605833729353,3.949069220875504, 1, 1,30,353.95007380197037,26,24,60
+15,-7.1234799253076839,-58.528376821324879,31,24,60,41.81639877265837, 1,13,30
+16,173060394.05402894,0.0, 1, 1,30,454306.17272217958,15,17,30
+17,161659507.61646224,0.0, 1, 1,30,861733.5014884183, 1, 9,30
+18,425090404.8112623,0.0, 1, 1,30,1158020.1576993517,15,17,30
+19,250329739.38341777,0.0, 1, 1,30,677341.5791817212,15,17,30
+20,105.54050125229594,0.0, 1, 1,30,330.230483183566,28, 9,30
+21,84.04017559642576,0.0, 1, 1,30,636.9493107677919, 4, 7,30
+22,250.80803786171635,0.0, 1, 1,30,794.7838343604828,28, 9,30
+23,146.8747044711303,0.0, 1, 1,30,466.44048165170485,28, 9,30
+24,349.3191182795708,0.0, 1, 1,30,792.358, 1, 9,30
+98,349.3191182795708,0.0, 1, 1,30,792.358, 1, 9,30
+99,1168.9203749999966,0.0, 1, 1,30,4007.7270000000005, 1, 7,30
+125,1168.9203749999966,0.0, 1, 1,30,4007.7270000000005, 1, 7,30
+126,840.7255000000049,0.0, 1, 1,30,1907.0115, 1, 9,30
+152,840.7255000000049,0.0, 1, 1,30,1907.0115, 1, 9,30
+153,493.4025967741957,0.0, 1, 1,30,1119.1815, 1, 9,30
+179,493.4025967741957,0.0, 1, 1,30,1119.1815, 1, 9,30
+217,237.56254111044019,15.8484277728, 1, 1,30,342.298656, 1, 7,30
+218,237.56254111044019,15.848427772800001, 1, 1,30,342.29865600000007, 1, 7,30
+244,1730.7132905319209,534.3619969092, 1, 1,30,8090.264904000001, 1, 7,30
+245,1730.7132905319209,534.3619969092001, 1, 1,30,8090.264904000001, 1, 7,30
+271,571.7548101575733,38.143281218400009, 1, 1,30,823.8289680000002, 1, 7,30
+272,571.7548101575733,38.143281218400009, 1, 1,30,823.8289680000003, 1, 7,30
+298,335.54984123816976,22.385420690400005, 1, 1,30,483.48640800000006, 1, 7,30
+299,335.54984123816976,22.385420690400009, 1, 1,30,483.48640800000006, 1, 7,30
+300,96.99413446996104,0.0, 1, 1,30,580.5755677274036, 2,15,60
+301,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+302,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+303,47.26963577861751,0.0, 1, 1,30,428.5350955337384, 2,10,30
+304,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+305,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+306,319.9199686021417,0.0, 1, 1,30,1974.2435854467104,12,13,30
+307,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+308,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+309,213.15294165584104,0.0, 1, 1,30,1309.5538678200279,12,11,30
+310,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+311,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+312,18.573135676291526,15.428157910081183,28, 7,30,22.046763996370009, 2,17,60
+313,20.02247398028522,16.249002634314807,31, 6,30,23.139953212039904, 2,22,30
+314,18.87741805584141,15.35134387511501,28, 7,30,22.842808855764156,15,17,30
+315,19.002183799690795,15.521350317796954,28, 7,30,22.856347371271665,14,17,30
+316,18.283283309244799,14.003893348006612,31, 5,60,23.03256402505832,15,16,60
+317,18.428209492768148,14.797881618686989,28, 6,60,22.485071145819398,15,17,30
+318,19.991925872027325,14.773927366203406,31, 5,60,24.176429361480854,15, 9,30
+319,20.007199926156284,15.583898427386372,31, 5,60,23.57188301921648, 2,20,30
+320,18.452513851958057,13.864866806739445,28, 6,60,23.903653229159159,15,16,60
+321,18.664965953899743,14.653676244050758,28, 6,60,23.35516152977803,15,16,60
+322,18.555105158208467,14.083547082162685,28, 6,60,23.85207520602753,15,16,60
+323,18.778644478949624,14.845086272111948,28, 6,60,23.32742431989999,15,16,60
+324,2085074996.981763,0.0,12,12,45,3932492.075206422,31, 7,60
+325,2801267.837406166,0.0, 1, 1,15,340972.3572410747,12,14,30
+326,0.7134587804455276,0.6891289886880804,12,13,45,0.7409490001012803,31, 7,60
+327,4521158819.349468,0.0,12,13,45,6630132.664957417,31, 7,60
+328,309971.0710144156,0.0, 1, 1,15,77202.782016979,12,13,45
+329,0.7175584240289022,0.6923869919023065,12,13,45,0.7424937988405991, 4, 7,30
+330,5155504041.865248,0.0,12,12,45,9464505.768708295,31, 7,60
+331,2955989.038455143,0.0, 1, 1,15,469170.0187300227,12,14,30
+332,0.7138680070599525,0.6905036926531915,12,13,45,0.7409417017712514,31, 7,60
+333,3076290110.887674,0.0,12,13,15,5554511.335771822,31, 7,60
+334,1597135.0920643719,0.0, 1, 1,15,248898.1113988175,12,14,30
+335,0.714121249718205,0.6907830142601412,12,13,45,0.7409426800123267,31, 7,60
+336,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+337,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+338,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+339,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+376,270302918.8574857,0.0, 1, 1,15,12338636.164664245,21, 9,60
+377,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+378,0.03575378159954772,0.0, 1, 1,15,5.202808682599017,19, 9,56
+379,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+392,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+393,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+394,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+395,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+408,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+409,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+410,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+411,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+510,220.92029166537575,0.0, 1, 1,15,6301.221436767155,31, 6,40
+511,38.89273768135844,0.0, 1, 1,15,281.97895155168706, 3, 8,60
+512,61.898679906676267,29.577604924140524,31, 7,60,76.94701956420939,20,16,60
+551,119.51625152277194,0.0, 1, 1,15,10433.227166485593,24, 5, 4
+552,163.32016866207958,0.0, 1, 1,15,1503.9630884713313, 4, 7,30
+553,55.293487609727609,26.252554086185719,31,10,50,73.29662621740116,20,18,30
+592,458.659134107022,0.0, 1, 1,15,14128.237657616715,31, 6,40
+593,109.00999883436,0.0, 1, 1,15,714.850916385895,16, 8,30
+594,61.264393764488989,29.552268818254754,31, 7,60,76.71224981907214,20,16,60
+633,251.88035569203653,0.0, 1, 1,15,8339.7264915264, 4, 5, 9
+634,67.32880497748552,0.0, 1, 1,15,477.8394495213436, 3,20,30
+635,60.861984415296507,29.54990169508054,31, 7,60,76.16646944425922,20,16,60
+734,746.4857393155605,0.0, 1, 1,15,4714.646774624572, 1, 7, 2
+895,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+958,255.21784716184093,0.0, 1, 1,15,6534.868502599902, 5, 5, 4
+959,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+960,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+961,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+962,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+963,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+964,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+967,121.19440750696404,0.0, 1, 1,15,11129.544445199386,30, 6, 2
+968,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+969,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+970,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+971,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+972,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+973,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+976,533.493834254516,0.0, 1, 1,15,14676.036228618897, 6, 5, 4
+977,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+978,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+979,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+980,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+981,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+982,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+985,292.6872777456566,0.0, 1, 1,15,8896.84573564445,29, 7, 3
+986,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+987,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+988,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+989,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+990,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+991,0.0,0.0, 1, 1,15,0.0, 1, 1,15
+1019,0.06832831422264413,0.0, 1, 1,15,0.2085949346294454, 1,17,60
+1020,0.04676115114142801,0.0, 1, 1,15,0.3048501080899204, 2, 7,30
+1021,0.0683882739706356,0.0, 1, 1,15,0.20880199634114569, 1,17,60
+1022,0.0683991211696773,0.0, 1, 1,15,0.20884448333577936, 1,17,60
+29,15341736118.969519,1099330.4278634403, 1, 1,30,31619082.4848, 1, 9,30
+65,7639781353.199998,0.0, 1, 1,30,14087300.399999999, 1, 9,30
+184,7701954765.769073,1099330.4278634403, 1, 1,30,17531782.0848, 1, 7,30
+739,5220413477.468969,0.0, 1, 1,30,52540069.29803769,31, 6,30
+925,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+996,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+4,334,11
+7,6.321458333333322,-4.7, 5, 7,60,16.9,14,16,60
+8,1.3440624999999993,-12.8, 4,21,60,10.1, 1,16,60
+9,98449.82638888889,96700.0,17,14,60,99800.0,21,11,60
+10,1.3213888888888899,0.0, 2, 1,60,9.8,18, 4,60
+11,154.41319444444447,0.0, 2, 1,60,355.0, 8, 7,30
+12,37.251041666666669,0.0, 1, 1,30,216.0, 4,13,30
+13,69.00972222222222,0.0, 1, 1,30,693.0, 5,13,30
+14,180.1139265084028,7.027123153088247,30, 1,30,353.8585708110633, 1,24,60
+15,-15.112263716427206,-66.17409236973681,30, 1,30,30.509556447126128, 1,12,60
+16,149823053.93533848,0.0, 1, 1,30,313433.88329481167, 2,21,30
+17,126393938.77173355,0.0, 1, 1,30,732567.8255242204, 2,10,60
+18,360659976.26439228,0.0, 1, 1,30,754358.9186084089, 2,21,30
+19,211663871.6641384,0.0, 1, 1,30,442716.0787670103, 2,21,30
+20,109.617534208205,0.0, 1, 1,30,330.27903868847735, 5,10,30
+21,95.63382760969393,0.0, 1, 1,30,637.1118223280706, 5, 8,30
+22,263.79452579348898,0.0, 1, 1,30,794.873692471616, 5,10,30
+23,154.8146868479733,0.0, 1, 1,30,466.4792452304606, 5,10,30
+24,347.75712222222298,0.0, 1, 1,30,792.358, 1, 8,30
+98,347.75712222222298,0.0, 1, 1,30,792.358, 1, 8,30
+99,1168.9203749999968,0.0, 1, 1,30,4007.7270000000005, 1, 8,30
+125,1168.9203749999968,0.0, 1, 1,30,4007.7270000000005, 1, 8,30
+126,836.966158333338,0.0, 1, 1,30,1907.0115, 1, 8,30
+152,836.966158333338,0.0, 1, 1,30,1907.0115, 1, 8,30
+153,491.1963250000021,0.0, 1, 1,30,1119.1815, 1, 8,30
+179,491.1963250000021,0.0, 1, 1,30,1119.1815, 1, 8,30
+217,237.56254111044007,15.8484277728, 1, 1,30,342.298656, 1, 8,30
+218,237.56254111044007,15.848427772800001, 1, 1,30,342.29865600000007, 1, 8,30
+244,1730.7132905319218,534.3619969092, 1, 1,30,8090.264904000001, 1, 8,30
+245,1730.7132905319218,534.3619969092001, 1, 1,30,8090.264904000001, 1, 8,30
+271,571.7548101575728,38.143281218400009, 1, 1,30,823.8289680000002, 1, 8,30
+272,571.7548101575728,38.143281218400009, 1, 1,30,823.8289680000003, 1, 8,30
+298,335.5498412381697,22.385420690400005, 1, 1,30,483.48640800000006, 1, 8,30
+299,335.5498412381697,22.385420690400009, 1, 1,30,483.48640800000006, 1, 8,30
+300,65.02646438609573,0.0, 1, 1,30,449.73782109198876, 2,15,30
+301,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+302,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+303,31.062098137879859,0.0, 1, 1,30,326.53326870151838, 3,10,30
+304,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+305,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+306,259.2259088295007,0.0, 1, 1,30,1976.7637385922158, 5,13,30
+307,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+308,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+309,167.9289639021698,0.0, 1, 1,30,1228.7090132801264, 5,12,30
+310,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+311,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+312,16.263194016078896,13.234711496245895,25, 8,30,18.249209044513365, 2,16,30
+313,16.7877135020353,13.401504465497473,24, 6,30,19.945798195295216, 2,11,30
+314,16.4946073149522,13.363126341361378,25, 8,30,18.953017379313868, 2,16,30
+315,16.509543866016445,13.392263382520941,25, 8,30,18.921099830862027, 2,15,60
+316,16.613524571261715,12.0,19, 7,60,18.251003498671435, 2,16,60
+317,16.4383592936703,12.650307983853037,25, 7,60,18.245309639942243, 2,16,60
+318,16.965955611365187,12.000000085151266,24, 5,60,23.043418442637134, 2,10,60
+319,16.876834556700258,12.768609550642353,24, 5,60,21.46430923138456, 2,10,60
+320,16.642107710119985,11.99999999999998,25, 7,60,18.788795005819258, 2,16,60
+321,16.568357512536083,12.717765629765827,25, 7,60,18.853227234058918, 2,16,60
+322,16.67872856677743,12.0,19, 7,30,18.764012422521814, 2,16,60
+323,16.594136216396934,12.728704987241859,25, 7,60,18.824799068336227, 2,16,60
+324,3575685719.718586,0.0, 7,13,45,4960989.392015904,22, 8,30
+325,8488.427082633965,0.0, 1, 1, 6,8488.427082633965, 7,13,45
+326,0.7253032222330595,0.6972634380653064, 7,13,45,0.7539746449600228, 5, 8,30
+327,6232441126.6008839,122186.43918423946, 7,13,45,9614690.390302595, 5, 7,60
+328,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+329,0.7261102908123984,0.6990083940850913, 7,13,45,0.759275870206951, 5, 7,60
+330,8628795573.845883,55987.59979712536, 7,13,45,11939880.309604112,22, 8,30
+331,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+332,0.7253707610431761,0.6979275240768909, 7,13,45,0.7536872140446767, 5, 8,30
+333,5082001969.101509,37361.64627357312, 7,13,45,7007496.005927663,22, 8,30
+334,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+335,0.7254639757806667,0.6979948849040776, 7,13,45,0.7539796427930743, 5, 8,30
+336,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+337,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+338,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+339,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+376,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+377,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+378,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+379,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+392,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+393,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+394,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+395,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+408,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+409,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+410,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+411,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+510,1276.9658907107476,0.0, 1, 1, 6,6502.477613315374,19, 8,60
+511,0.12551565749441388,0.0, 1, 1, 6,95.34442203385393, 2,19,30
+512,38.83662421691066,14.039585911301345, 4,21,60,71.00918778745019,13, 5,60
+551,996.0575920592161,0.0, 1, 1, 6,11063.536406540152,24, 6,60
+552,162.67511967420814,0.0, 1, 1, 6,1688.7262752051404, 5, 9,30
+553,37.37502669166044,11.473974991203486, 4,23,60,67.36868925473427,13, 5,60
+592,2620.3474967480585,0.0, 1, 1, 6,14579.876493404001,25, 8,60
+593,1.643299934757749,0.0, 1, 1, 6,466.8652066434191, 2,20,40
+594,38.78139292480003,13.988903060628866, 4,21,60,71.4533573075315,13, 5,60
+633,1586.1433114904999,0.0, 1, 1, 6,8845.969706051304,25, 8,60
+634,0.9182042761459686,0.0, 1, 1, 6,274.5895153437922, 2,20,40
+635,38.68398906960653,13.993678103155263, 4,21,60,71.0448781330348,13, 5,60
+734,746.4857393155604,0.0, 1, 1, 6,4714.646774624572, 1, 8, 6
+895,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+958,1431.6053443936765,0.0, 1, 1, 6,6534.868502599802, 2, 6, 3
+959,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+960,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+961,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+962,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+963,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+964,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+967,1060.0421075366863,0.0, 1, 1, 6,11129.544445199359,11,18, 3
+968,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+969,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+970,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+971,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+972,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+973,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+976,2990.344088557818,0.0, 1, 1, 6,14676.036228619132,12, 8, 8
+977,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+978,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+979,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+980,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+981,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+982,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+985,1802.6678363609436,0.0, 1, 1, 6,8896.845735644658,17, 6,12
+986,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+987,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+988,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+989,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+990,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+991,0.0,0.0, 1, 1, 6,0.0, 1, 1, 6
+1019,0.06669653499558288,0.0, 1, 1, 6,0.20513373802099, 2, 9,60
+1020,0.04625188788716444,0.0, 1, 1, 6,0.30242878204075876, 2,10,60
+1021,0.06669708403873782,0.0, 1, 1, 6,0.20513405040136607, 2, 9,60
+1022,0.06669707097339739,0.0, 1, 1, 6,0.20513410733955937, 2, 9,60
+29,14827329841.635,1099330.4278634403, 1, 1,30,31619082.4848, 1, 8,30
+65,7373825229.600001,0.0, 1, 1,30,14087300.399999999, 1, 8,30
+184,7453504612.034591,1099330.4278634403, 1, 1,30,17531782.0848, 1, 8,30
+739,20816728141.09883,0.0, 1, 1,30,74227130.84170917,24, 6,30
+925,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+996,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+4,365,12
+7,2.619321236559139,-6.0,30, 4,60,12.8,21,16,60
+8,-1.8876008133959244,-13.7,25, 2,60,6.6,20,16,60
+9,98159.4758064516,95900.0,24,16,60,99700.0,19, 1,60
+10,1.2290658602150549,0.0, 1,13,60,9.3, 6,20,60
+11,153.65927419354839,0.0, 1,13,60,355.0, 6,22,30
+12,31.131384408602153,0.0, 1, 1,30,184.0,20,13,30
+13,48.604838709677419,0.0, 1, 1,30,517.0, 4,12,30
+14,177.57697116575197,0.0716596816653468,27, 1,30,349.5002168686028, 1,24,60
+15,-18.989838322660114,-68.26885224124433,23, 1,30,23.03502790146485, 1,13,30
+16,160765589.825281,0.0, 1, 1,30,313433.8832947467,29,22,30
+17,119224022.28288311,0.0, 1, 1,30,610196.4957181381,21,10,60
+18,386961685.50972047,0.0, 1, 1,30,754358.5348197926,10,18,30
+19,227101062.2718268,0.0, 1, 1,30,442715.7972237796, 3,21,30
+20,113.85932610337042,0.0, 1, 1,30,334.2574735195582,30,10,30
+21,99.8837707777202,0.0, 1, 1,30,645.3165835320627,30, 8,30
+22,274.0171862420561,0.0, 1, 1,30,797.9602080514885,10,10,30
+23,160.81365025329908,0.0, 1, 1,30,468.0723364610817,10,10,30
+24,351.4491129032267,0.0, 1, 1,30,792.358, 1, 8,30
+98,351.4491129032267,0.0, 1, 1,30,792.358, 1, 8,30
+99,1168.9203749999966,0.0, 1, 1,30,4007.7270000000005, 1, 8,30
+125,1168.9203749999966,0.0, 1, 1,30,4007.7270000000005, 1, 8,30
+126,845.851875000005,0.0, 1, 1,30,1907.0115, 1, 8,30
+152,845.851875000005,0.0, 1, 1,30,1907.0115, 1, 8,30
+153,496.4111491935505,0.0, 1, 1,30,1119.1815, 1, 8,30
+179,496.4111491935505,0.0, 1, 1,30,1119.1815, 1, 8,30
+217,237.56254111044019,15.8484277728, 1, 1,30,342.298656, 1, 8,30
+218,237.56254111044019,15.848427772800001, 1, 1,30,342.29865600000007, 1, 8,30
+244,1730.7132905319209,534.3619969092, 1, 1,30,8090.264904000001, 1, 8,30
+245,1730.7132905319209,534.3619969092001, 1, 1,30,8090.264904000001, 1, 8,30
+271,571.7548101575733,38.143281218400009, 1, 1,30,823.8289680000002, 1, 8,30
+272,571.7548101575733,38.143281218400009, 1, 1,30,823.8289680000003, 1, 8,30
+298,335.5498412381697,22.385420690400005, 1, 1,30,483.48640800000006, 1, 8,30
+299,335.5498412381697,22.385420690400009, 1, 1,30,483.48640800000006, 1, 8,30
+300,48.41847472748297,0.0, 1, 1,30,312.2635237784999, 4,14,60
+301,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+302,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+303,23.363540866636336,0.0, 1, 1,30,204.85925380119898, 6,10,30
+304,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+305,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+306,202.63212483768027,0.0, 1, 1,30,1575.9541261368659, 4,12,60
+307,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+308,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+309,131.94799668061484,0.0, 1, 1,30,1016.1952075720467, 4,12,30
+310,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+311,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+312,15.408061647713997,12.71379830843241,31, 8,30,16.922128856880037,23,16,30
+313,15.424468372950649,12.866429411050282,30, 6,30,18.1245807565231,22,10,60
+314,15.588713044387422,12.835024906410253,10, 8,30,17.342410867499625,23,15,60
+315,15.57550036174652,12.868905068070499,31, 8,30,17.230673338419537,23,15,60
+316,16.071019597033485,11.999999999999999,10, 7,30,18.00000000000876,22,16,60
+317,15.739540622373749,12.368715936925014,31, 7,60,17.461064428440034,23,16,30
+318,15.748827553569003,12.000000000000036,30, 5,60,20.51340484088488,21,10,60
+319,15.586647963259815,12.488810128168116,30, 5,60,19.194319450391207,21,10,60
+320,16.074313091223716,11.999999999999972,31, 5,30,18.00000000000302,22,16,60
+321,15.831513067805587,12.43539618290291,31, 7,60,17.67120543374981,23,15,60
+322,16.102367312407563,11.999999999999999, 4, 5,60,18.00000000000455,22,16,60
+323,15.838933837077042,12.44455265400799,31, 7,60,17.615336669209783,23,15,60
+324,4861991527.749748,110793.2351431826, 4,16, 3,5422469.609884959,30,10,60
+325,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+326,0.7337908073849475,0.7070772252914512,21,16, 3,0.7564047198609905,30,10,60
+327,8005340616.496188,159821.73486444597, 4,16, 3,9151661.439895755,30,10,60
+328,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+329,0.7329048718408923,0.7046775052231489,21,16,45,0.7576645784272414, 2, 8,59
+330,11704131340.636496,280015.65724819738,21,16, 3,13061960.124198514,30,10,60
+331,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+332,0.7337966022658109,0.7069427104643041,21,16, 3,0.7564611461398713,30,10,60
+333,6883193567.619706,166942.9195269013,21,16, 3,7666051.595852718,30,10,60
+334,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+335,0.7338686263159148,0.7071383864943184,21,16, 3,0.7564632959200308,30,10,60
+336,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+337,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+338,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+339,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+376,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+377,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+378,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+379,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+392,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+393,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+394,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+395,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+408,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+409,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+410,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+411,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+510,2027.1307640781368,0.0, 1, 1, 3,6501.4527500141,16, 8,60
+511,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+512,31.186544239831144,11.135150254710013,25, 6,60,57.19880898842572,21, 5,60
+551,1821.1552143385575,0.0, 1, 1, 3,11075.991191980502,27, 6,60
+552,135.39054724001813,0.0, 1, 1, 3,1766.8369471735039,27,10,60
+553,31.21023484477487,11.122920302354454,25, 6,60,56.27513852109202,21, 5,60
+592,4288.640760566177,0.0, 1, 1, 3,14582.38720486604,24, 8,60
+593,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+594,31.199262470234605,11.133518486621874,25, 6,60,57.53479846489542,21, 5,60
+633,2619.3058435672057,0.0, 1, 1, 3,8846.764058973042,24, 8,60
+634,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+635,31.131337335401207,11.134032877057134,25, 6,60,57.22284594829169,21, 5,60
+734,746.4857393155605,0.0, 1, 1, 3,4714.646774624572, 1, 8,30
+895,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+958,2243.8692123255416,0.0, 1, 1, 3,6534.868502599815,10, 8,34
+959,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+960,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+961,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+962,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+963,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+964,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+967,1977.5634756665284,0.0, 1, 1, 3,11129.544445199497, 4, 6, 2
+968,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+969,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+970,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+971,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+972,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+973,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+976,4809.048984005714,0.0, 1, 1, 3,14676.036228619025, 9, 8, 5
+977,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+978,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+979,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+980,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+981,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+982,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+985,2924.225028809547,0.0, 1, 1, 3,8896.845735644562,19, 6,10
+986,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+987,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+988,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+989,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+990,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+991,0.0,0.0, 1, 1, 3,0.0, 1, 1, 3
+1019,0.06941009506321291,0.0, 1, 1, 3,0.20632357408316336,24,16,60
+1020,0.046172144127549438,0.0, 1, 1, 3,0.2989048089084868,26,10,60
+1021,0.06941052831762129,0.0, 1, 1, 3,0.2063250548696285,24,16,60
+1022,0.06941045817030056,0.0, 1, 1, 3,0.20632456936609587,24,16,60
+29,15369229686.169518,1099330.4278634403, 1, 1,30,31619082.4848, 1, 8,30
+65,7667274920.400001,0.0, 1, 1,30,14087300.399999999, 1, 8,30
+184,7701954765.769073,1099330.4278634403, 1, 1,30,17531782.0848, 1, 8,30
+739,34018873831.625185,0.0, 1, 1,30,74227130.84170912,29, 6,30
+925,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+996,0.0,0.0, 1, 1,30,0.0, 1, 1,30
+5,365
+31,180609963755.08219,1099330.4278634403, 1, 1, 1,30,31619082.4848, 1, 1,10,30
+741,151896142136.77226,0.0, 1, 1, 1,30,74227130.84170917, 2,21, 6,30
+927,41975884228.329837,0.0, 1, 1, 1,30,73109433.57886164, 7,22,17,30
+998,0.0,0.0, 1, 1, 1,30,0.0, 1, 1, 1,30
+End of Data
+ Number of Records Written=        1648
