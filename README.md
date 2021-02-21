@@ -1,4 +1,4 @@
-# Smart Building project
+# Optimizing The Energy Efficiency of a Building in Turin (+IoT)
 
 ### In this project, the following tasks were accomplished:
 1) Modeling of a dummy house. Output: IDF file. SW: Design Builder;
