@@ -1,0 +1,432 @@
+<html>
+<head><title>EnergyPlus ChangeLog</title></head>
+<body>
+<style>
+table, th, td {
+ border: 1px solid black;
+ border-collapse: collapse;
+}
+th,td {
+ padding: 6px;
+}
+</style>
+<h1>ChangeLog for EnergyPlus 9.0.1-bb7ca4f0da</h1>
+<h1>Consists of pull requests merged in since the last release - starting with SHA <a href = "https://github.com/NREL/EnergyPlus/commit/40101ea">40101ea</a></h1>
+<h2>New Features</h2>
+<table border="1" >
+ <tr>
+  <th>PR #</th>
+  <th>Description</th>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6247">6247</a></td>
+  <td>Windows calc engine integration</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6374">6374</a></td>
+  <td>update nist escalation rates</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6421">6421</a></td>
+  <td>Window shading control order new feature</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6450">6450</a></td>
+  <td>Allow Multiple Air Primary Loops in the Airflow Network</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6461">6461</a></td>
+  <td>179d reporting based on v8.8.0</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6478">6478</a></td>
+  <td>Merge RunPeriod and RunPeriod:CustomRange</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6501">6501</a></td>
+  <td>Simple python script to parse C++ code for EMS variable calls</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6718">6718</a></td>
+  <td>Update fan coil and PT unit HVACTemplate inputs for Single Zone VAV control</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6753">6753</a></td>
+  <td>Include fan heat when sizing zone cooling coils and adjust airloop coil inlet/outlet conditions</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6771">6771</a></td>
+  <td>Added New Water Mains Temperature Calculation Method  </td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6812">6812</a></td>
+  <td>Fan energy index</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6852">6852</a></td>
+  <td>Allow any wall shape for Kiva Foundations</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6855">6855</a></td>
+  <td>BSDF Venetian Blinds - Add option for vertical blinds and correct surface emissivity calculation</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6872">6872</a></td>
+  <td>Improve Kiva longwave radiation methodology and performance</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6885">6885</a></td>
+  <td>Add API function RunEnergyPlus that uses return codes instead of std::exit()</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6891">6891</a></td>
+  <td>Updated ASHRAE Revised Clear Sky "tau" Model with new 2017 option</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6957">6957</a></td>
+  <td>Initial addition of EP-Launch workflow files</td>
+ </tr>
+</table>
+<h2>Performance Enhancements</h2>
+<table border="1" >
+ <tr>
+  <th>PR #</th>
+  <th>Description</th>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6872">6872</a></td>
+  <td>Improve Kiva longwave radiation methodology and performance</td>
+ </tr>
+</table>
+<h2>Defects Repaired</h2>
+<table border="1" >
+ <tr>
+  <th>PR #</th>
+  <th>Description</th>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6600">6600</a></td>
+  <td>AirloopHVAC:UnitarySystem with constant fan and multispeed gas/elec heating coil does not honor no load flow rate.</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6633">6633</a></td>
+  <td>Fix Tiny IDD Issues</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6726">6726</a></td>
+  <td>Fix return flow basis node calculation</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6745">6745</a></td>
+  <td>Set multiple CO2 controllers correctly</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6751">6751</a></td>
+  <td>Set multiple GenericContam controllers correctly </td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6754">6754</a></td>
+  <td>Address overshooting using correct zone air temperature at previous timestep</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6757">6757</a></td>
+  <td>AirloopHVAC:UnitarySystem: Correct AT Mixer operation for set point control and Improve error message when Control Type = Load and no control zone name is specified</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6759">6759</a></td>
+  <td>EMPD model moisture sorption curve slope equation is incorrrect</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6760">6760</a></td>
+  <td>Remove unnecessary warnings in two example files</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6762">6762</a></td>
+  <td>Correct terminal unit heating coil inlet air conditions used for sizing and/or reporting.</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6764">6764</a></td>
+  <td>Correction of Reference Temperature for Fisher-Pedersen Convection Models when Specified for Surfaces</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6765">6765</a></td>
+  <td>Add plant initialization for SwimmingPool:Indoor.</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6768">6768</a></td>
+  <td>Minimum OA dry bulb is not properly processed</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6769">6769</a></td>
+  <td>Remove extra space at end of readvars header</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6773">6773</a></td>
+  <td>Issue severe error for vertex size mismatch between base and boundary surfaces</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6775">6775</a></td>
+  <td>Misspelled object names result in warning that says object type is wrong</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6776">6776</a></td>
+  <td>Setup a correct value for an exp function with underflow value</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6778">6778</a></td>
+  <td>Economizer faults do not work because fault objects are processed too late</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6779">6779</a></td>
+  <td>Avoid underflow in SolveRoot</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6781">6781</a></td>
+  <td>Bad initial tank temperature in WaterHeater:Mixed</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6782">6782</a></td>
+  <td>Addressed Incorrect Source Side Inlet Temperature in Stratified Tank</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6785">6785</a></td>
+  <td>Life cycle analysis allows up to 100 years but only reads in 99 years for LifeCycleCost:UsePriceEscalation</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6786">6786</a></td>
+  <td>Improve error message when SetpointManager:SingleZone:Reheat does not find matching zone inlet node</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6788">6788</a></td>
+  <td>Include impact of AirTerminal:SingleDuct:Mixer in ZoneHVAC coil sizing</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6791">6791</a></td>
+  <td>VRP fix D term application and Vou reporting</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6801">6801</a></td>
+  <td>Fix Daylighting EMS lag Part1 - move surface EMS inits from InitSurfaceHeatBalance to InitHeatBalance</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6804">6804</a></td>
+  <td>Throw error for excess Controller:WaterCoil objects</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6805">6805</a></td>
+  <td>Correct Fan:SystemModel crash when Continuous mode is used without power as a function of flow fraction curve</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6807">6807</a></td>
+  <td>Assign correct input values for Curve:ExponentialSkewNormal</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6810">6810</a></td>
+  <td>Remove curve-type dependencies</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6813">6813</a></td>
+  <td>Heating water coil sizing mixing up hot and cold initialization temperatures</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6816">6816</a></td>
+  <td>Deprecated Boiler "Design Water Outlet Temperature" input field</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6818">6818</a></td>
+  <td>Add a new example file for single sided natural ventilation</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6821">6821</a></td>
+  <td>Fuel cell bug fixes</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6822">6822</a></td>
+  <td>Address overwritten RunPeriod objects</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6823">6823</a></td>
+  <td>Address epJSON conversion issue with Schedule:Year</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6824">6824</a></td>
+  <td>Fix issue when Output:Variable key uses regex symbols for full key comparison</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6825">6825</a></td>
+  <td>Fix restrictive CLI requiring IDD for simulation</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6828">6828</a></td>
+  <td>Fix allocation issue for metered output variables, Fixes #6827</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6832">6832</a></td>
+  <td>Change IDD/epJSON Schema for EnergyManagementSystem:Program to allow blank lines</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6839">6839</a></td>
+  <td>Correction of Problem in Natural Convection Equation</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6840">6840</a></td>
+  <td>Correction of Equations in Exponential Curve Sections of Input/Output Reference</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6841">6841</a></td>
+  <td>Allow OA node EMS override for both OutdoorAir:Node and OutdoorAir:NodeList</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6845">6845</a></td>
+  <td>Correction of Missing Equation Reference in DOE-2 Convection Model in Engineering Reference</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6847">6847</a></td>
+  <td>Wrong Temperature Used in Low Temperature Radiant HX Calculation Routine</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6848">6848</a></td>
+  <td>Addresses OutdoorAirUnit crash when used with steam heating coil</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6853">6853</a></td>
+  <td>Cleanup surface vertex points and reset vertex size </td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6855">6855</a></td>
+  <td>BSDF Venetian Blinds - Add option for vertical blinds and correct surface emissivity calculation</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6858">6858</a></td>
+  <td>Correct EIO Wind Angle Output</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6861">6861</a></td>
+  <td>Addressed Heat exchanger bypass control problems </td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6867">6867</a></td>
+  <td>Assign the same HeatTransferAlgorithms for an interior surface with reverse constructions</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6876">6876</a></td>
+  <td>Use outdoor air Cp to calculate reporting values of infiltration and ventilation </td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6877">6877</a></td>
+  <td>Addressed Transformer Rated Capacity of 0 hard crashes</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6886">6886</a></td>
+  <td>Incorrect minimum OA amount when the Minimum Limit Type is FixedMinimum</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6889">6889</a></td>
+  <td>Remove some dangling limitations to the number of daylighting reference points</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6890">6890</a></td>
+  <td>Addressed Damper Normal Heating Action in VAV Reheat Air Terminal</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6900">6900</a></td>
+  <td>Use setpoints averaged in a zone time step to calculate "hours of setpoint not met" with onoff thermostat</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6901">6901</a></td>
+  <td>CoolingTower:VariableSpeed:Merkel model crash with failure on air flow ratio</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6914">6914</a></td>
+  <td>Extend WindowTests example to include switchable glazing with illuminance control, and other minor test changes</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6915">6915</a></td>
+  <td>Avoid crash of AirflowNetworkAdvanced_SingleSided_NV</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6918">6918</a></td>
+  <td>Fix infinite parsing loop caused by stray semicolon</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6922">6922</a></td>
+  <td>Correct relative humidity control for CoilSystem:Cooling:DX when using variable speed DX cooling coils</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6932">6932</a></td>
+  <td>Eng ref updates 1 and 2</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6942">6942</a></td>
+  <td>Add check to not show component loads when only SizingPeriod:WeatherFileConditionType is used</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6946">6946</a></td>
+  <td>Addressed Documentation Issues - 2017 (#5997)</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6948">6948</a></td>
+  <td>Fix VRF curve dimension check and clarify xy variables for all DX heat pump defrost EIR curves</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6966">6966</a></td>
+  <td>Fourth Set of Engineering Reference Comprehensive Edits</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6967">6967</a></td>
+  <td>Third Set of Engineering Reference Comprehensive Edits</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6968">6968</a></td>
+  <td>Fix bug in input parser</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6975">6975</a></td>
+  <td>Fix console messages on Windows with Schedule:File or other extra files</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6980">6980</a></td>
+  <td>Fix doc issues</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6989">6989</a></td>
+  <td>Correct ERV sizing reports to eio file</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6990">6990</a></td>
+  <td>Sixth (and Final) Set of Engineering Reference Comprehensive Edits</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6996">6996</a></td>
+  <td>Fix Vertex array size when a coincident vertex is dropped</td>
+ </tr>
+</table>
+<h2>Under the Hood Restructuring</h2>
+<table border="1" >
+ <tr>
+  <th>PR #</th>
+  <th>Description</th>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6247">6247</a></td>
+  <td>Windows calc engine integration</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6721">6721</a></td>
+  <td>Change error call to use the higher level routine</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6771">6771</a></td>
+  <td>Added New Water Mains Temperature Calculation Method  </td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6799">6799</a></td>
+  <td>Refactor AirloopHVAC:UnitarySystem</td>
+ </tr>
+ <tr>
+  <td><a href="https://github.com/NREL/EnergyPlus/pull/6810">6810</a></td>
+  <td>Remove curve-type dependencies</td>
+ </tr>
+</table>
+</body>
+</html>
