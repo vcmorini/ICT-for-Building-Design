@@ -27,5 +27,5 @@ Grafana
 ## Besos IDF Visualization
 ![alt text](https://github.com/vcmorini/building-design/blob/main/imgs/design_builder_besos_dummy.PNG?raw=true)
 
-# Graphana Dashboard
+# Grafana Dashboard
 ![alt text](https://github.com/vcmorini/building-design/blob/main/imgs/graphana_dashboard.JPG?raw=true)
