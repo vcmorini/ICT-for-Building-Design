@@ -22,10 +22,10 @@ Grafana
 * [Victor de Castro Morini](https://github.com/vcmorini)
 
 # Dummy Building
-## Design Builder
-![alt text](https://github.com/vcmorini/building-design/blob/main/imgs/design_builder_dummy.PNG?raw=true)
+## Design Builder Model
+![Design Builder Model](https://github.com/vcmorini/building-design/blob/master/imgs/design_builder_dummy.PNG?raw=true)
 ## Besos IDF Visualization
-![alt text](https://github.com/vcmorini/building-design/blob/main/imgs/design_builder_besos_dummy.PNG?raw=true)
+![IDF Visualization](https://github.com/vcmorini/building-design/blob/master/imgs/design_builder_besos_dummy.PNG?raw=true)
 
 # Grafana Dashboard
-![alt text](https://github.com/vcmorini/building-design/blob/main/imgs/graphana_dashboard.JPG?raw=true)
+![Grafana Dashboard](https://github.com/vcmorini/building-design/blob/master/imgs/graphana_dashboard.JPG?raw=true)
