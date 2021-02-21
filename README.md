@@ -31,4 +31,4 @@ Grafana
 ![Grafana Dashboard](https://github.com/vcmorini/building-design/blob/master/imgs/graphana_dashboard.JPG?raw=true)
 
 # Cronograf Explore
-![Cronograf Explore](https://github.com/vcmorini/building-design/blob/master/imgs/Cronograf.JPG?raw=true)
+![Cronograf Explore](https://github.com/vcmorini/building-design/blob/master/imgs/Cronograf.PNG?raw=true)
