@@ -28,7 +28,7 @@ Grafana
 ![IDF Visualization](https://github.com/vcmorini/building-design/blob/master/imgs/design_builder_besos_dummy.PNG?raw=true)
 
 # Grafana Dashboard
-![Grafana Dashboard](https://github.com/vcmorini/building-design/blob/master/imgs/graphana_dashboard.JPG?raw=true)
+![Grafana Dashboard](https://github.com/vcmorini/building-design/blob/master/imgs/grafana_dashboard.JPG?raw=true)
 
 # Cronograf Explore
-![Cronograf Explore](https://github.com/vcmorini/building-design/blob/master/imgs/Cronograf.PNG?raw=true)
+![Cronograf Explore](https://github.com/vcmorini/building-design/blob/master/imgs/cronograf.PNG?raw=true)
